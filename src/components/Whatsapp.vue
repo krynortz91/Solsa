@@ -1,7 +1,7 @@
 <template>
    <!-- whatsapp -->
    <div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style="">
-      <a id="WhatsApp-button" href="https://wa.me/56981299150" target="_blank" class="phoneJs" title="WhatsApp 360imagem">
+      <a id="WhatsApp-button" href="https://wa.me/56991351542" target="_blank" class="phoneJs" title="WhatsApp 360imagem">
          <div class="cbh-ph-circle"></div>
          <div class="cbh-ph-circle-fill"></div>
          <div class="cbh-ph-img-circle1"></div>

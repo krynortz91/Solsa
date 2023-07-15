@@ -1,93 +1,48 @@
 <template>
   <!-- ======= hero Section ======= -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
   <section id="hero">
      <div class="hero-container">
-import ContactoComp from "@/components/ContactoComp.vue";
-        <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
-           <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
-           <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active" style="background-image: url(../assets/1.png)">
+        <div id="heroCarousel" class="carousel slide carousel-fade">
+           <div class="carousel-inner">
+               <div class="hero-video">
+  <video autoplay loop muted>
+    <source src="../assets/video_solsa.mp4" type="video/mp4" />
+    Tu navegador no admite el elemento de video.
+  </video>
                  <div class="carousel-container">
                     <div class="container">
-                       <h2 class="animate__animated animate__fadeInDown">
+                       <h2 class="texto">
                           Montaje Industrial Soluciones de Ingeniería
                        </h2>
-                       <p class="animate__animated animate__fadeInUp">Servicio de apoyo integral a operaciones industriales, Arriendo de equipos, Herramientas y más.</p>
-                       <div  class="btn-get-started scrollto animate__animated animate__fadeInUp">
+                       <p>Servicio de apoyo integral a operaciones industriales, Arriendo de equipos, Herramientas y más.</p>
+                       <div  class="btn-get-started">
                         <router-link to="/ServiciosView">Servicios</router-link>
                        </div>
                     </div>
                  </div>
               </div>
-              <div class="carousel-item" style="background-image: url(../assets/1.png)">
-                 <div class="carousel-container">
-                    <div class="container">
-                       <h2 class="animate__animated animate__fadeInDown">At vero eos et accusamus</h2>
-                       <p class="animate__animated animate__fadeInUp">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                       <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-                    </div>
-                 </div>
-              </div>
-              <div class="carousel-item" style="background-image: url(../assets/1.png)">
-                 <div class="carousel-container">
-                    <div class="container">
-                       <h2 class="animate__animated animate__fadeInDown">Temporibus autem quibusdam</h2>
-                       <p class="animate__animated animate__fadeInUp">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                       <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-                    </div>
-                 </div>
-              </div>
-              <div class="carousel-item" style="background-image: url(../assets/1.png)">
-                 <div class="carousel-container">
-                    <div class="container">
-                       <h2 class="animate__animated animate__fadeInDown">Nam libero tempore</h2>
-                       <p class="animate__animated animate__fadeInUp">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                       <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-                    </div>
-                 </div>
-              </div>
-              <div class="carousel-item" style="background-image: url(../assets/1.png)">
-                 <div class="carousel-container">
-                    <div class="container">
-                       <h2 class="animate__animated animate__fadeInDown">Magnam aliquam quaerat</h2>
-                       <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                       <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
-                    </div>
-                 </div>
-              </div>
            </div>
-           <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-           <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
-           </a>
-           <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-           <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
-           </a>
         </div>
      </div>
   </section>
   <!-- End Hero Section -->
 <ServiciosComp />
-<GaleriaComp />
 <CallComp />
-<TestimonioComp />
 <ContactoComp />
 
 </template>
 <script>
    import ServiciosComp from "@/components/ServiciosComp.vue"
-   import GaleriaComp from "@/components/GaleriaComp.vue"
    import CallComp from "@/components/CallComp.vue"
-   import TestimonioComp from "@/components/TestimonioComp.vue"
    import ContactoComp from "@/components/ContactoComp.vue"
 
    export default {
       name: "HomeView",
       components: {
          ServiciosComp,
-         GaleriaComp,
          CallComp,   
-         TestimonioComp,
          ContactoComp
       },
       updated() {
@@ -108,23 +63,13 @@ import ContactoComp from "@/components/ContactoComp.vue";
   body {
    background: #fff;
    color: #666666;
-   font-family: "Open Sans", sans-serif;
+   font-family: "Montserrat", sans-serif;
   }
-  a {
-   color: #18d26e;
-   transition: 0.5s;
-   text-decoration: none;
-  }
-  a:hover,
-  a:active,
-  a:focus {
-   color: #18d36e;
-   outline: none;
-   text-decoration: none;
-  }
+
   p {
    padding: 0;
    margin: 0 0 30px 0;
+   font-family: "Montserrat", sans-serif;
   }
 
   #hero {
@@ -133,6 +78,7 @@ import ContactoComp from "@/components/ContactoComp.vue";
   background: #000;
   overflow: hidden;
   position: relative;
+  font-family: "Montserrat", sans-serif;
   }
   @media (max-height: 500px) {
   #hero {
@@ -216,29 +162,10 @@ import ContactoComp from "@/components/ContactoComp.vue";
   left: 0;
   transform: translate3d(0, 0, 0);
   }
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
-  width: 10%;
-  }
-  @media (min-width: 1024px) {
-  #hero .carousel-control-prev,
-  #hero .carousel-control-next {
-  width: 5%;
-  }
-  }
-  #hero .carousel-control-next-icon,
-  #hero .carousel-control-prev-icon {
-  background: none;
-  font-size: 32px;
-  line-height: 1;
-  }
-  #hero .carousel-indicators li {
-  cursor: pointer;
-  }
   #hero .btn-get-started {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 32px;
@@ -251,5 +178,13 @@ import ContactoComp from "@/components/ContactoComp.vue";
   #hero .btn-get-started:hover {
   background: #fff;
   color: #18d26e;
+  }
+  a{
+   text-decoration: none;
+   color: #fff;
+  }
+  a:hover{
+   text-decoration: none;
+   color: #18d26e;
   }
 </style>

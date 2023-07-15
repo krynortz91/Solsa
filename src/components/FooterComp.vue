@@ -1,44 +1,41 @@
 <template>
    <footer id="footer">
-      <div class="footer-top">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-3 col-md-6 footer-info">
-                  <h3>Solsa</h3>
-                  <p>
-                     Solsa SpA nace en los inicios de este año 2022.
-                  </p>
+       <div class="footer-top">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-3 col-md-6 footer-info">
+                       <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid" width="240px"></a>
+                   </div>
+                   <div class="col-lg-3 col-md-6 footer-links">
+                       <h4>Sitio</h4>
+                       <ul>
+                           <li><i class="bi bi-chevron-right"></i><router-link to="/HomeView">Inicio</router-link></li>
+                           <li><i class="bi bi-chevron-right"></i><router-link to="/ServiciosView#mecanizado">Servicios</router-link></li>
+                       </ul>
+                   </div>
+                   <div class="col-lg-3 col-md-6 footer-links">
+                       <h4>Ayuda</h4>
+                       <ul>
+                           <li><i class="bi bi-chevron-right"></i> <a href="#contacto">Solicita un presupuesto</a></li>
+                           <li><i class="bi bi-chevron-right"></i> <a href="#contacto">Contáctanos</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-lg-3 col-md-6 footer-contact">
+                       <h4>Contactános</h4>
+                       <p>
+                           <strong>Teléfono:</strong> +56 9 9135 1542<br>
+                           <strong>Email:</strong> info@solsa.cl<br>
+                       </p>
+                       <!-- <div class="social-links">
+                           <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                           </div> -->
+                   </div>
                </div>
-               <div class="col-lg-3 col-md-6 footer-links">
-                  <h4>Sitio</h4>
-                  <ul>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Inicio</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Sobre Nosotros</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Servicios</a></li>
-                  </ul>
-                  <h4>Ayuda</h4>
-                  <ul>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Solicita un presupuesto</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Nuestras políticas</a></li>
-                     <li><i class="bi bi-chevron-right"></i> <a href="#">Contáctanos</a></li>
-                  </ul>
-               </div>
-               <div class="col-lg-3 col-md-6 footer-contact">
-                  <h4>Contactános</h4>
-                  <p>
-                     <strong>Teléfono:</strong> +56 9 9135 1542<br>
-                     <strong>Email:</strong> info@solsa.cl<br>
-                  </p>
-                  <!-- <div class="social-links">
-                     <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                     <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                     <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                     <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                     </div> -->
-               </div>
-            </div>
-         </div>
-      </div>
+           </div>
+       </div>
    </footer>
    <!-- End Footer -->
 </template>
@@ -57,6 +54,7 @@
    color: #18d26e;
    transition: 0.5s;
    text-decoration: none;
+   font-family: "Montserrat", sans-serif;
    }
    a:hover,
    a:active,
@@ -68,6 +66,7 @@
    p {
    padding: 0;
    margin: 0 0 30px 0;
+   font-family: "Montserrat", sans-serif;
    }
    h1,
    h2,
@@ -109,28 +108,6 @@
    margin-bottom: 0;
    font-family: "Montserrat", sans-serif;
    color: #eee;
-   }
-   #footer .footer-top .social-links a {
-   display: inline-block;
-   background: #333;
-   color: #eee;
-   line-height: 1;
-   margin-right: 4px;
-   border-radius: 50%;
-   width: 36px;
-   height: 36px;
-   transition: 0.3s;
-   display: inline-flex;
-   align-items: center;
-   justify-content: center;
-   }
-   #footer .footer-top .social-links a i {
-   line-height: 0;
-   font-size: 16px;
-   }
-   #footer .footer-top .social-links a:hover {
-   background: #18d26e;
-   color: #fff;
    }
    #footer .footer-top h4 {
    font-size: 14px;
@@ -186,35 +163,5 @@
    }
    #footer .footer-top .footer-contact p {
    line-height: 26px;
-   }
-   #footer .footer-top .footer-newsletter {
-   margin-bottom: 30px;
-   }
-   #footer .footer-top .footer-newsletter input[type=email] {
-   border: 0;
-   padding: 6px 8px;
-   width: 65%;
-   }
-   #footer .footer-top .footer-newsletter input[type=submit] {
-   background: #18d26e;
-   border: 0;
-   width: 35%;
-   padding: 6px 0;
-   text-align: center;
-   color: #fff;
-   transition: 0.3s;
-   cursor: pointer;
-   }
-   #footer .footer-top .footer-newsletter input[type=submit]:hover {
-   background: #13a456;
-   }
-   #footer .copyright {
-   text-align: center;
-   padding-top: 30px;
-   }
-   #footer .credits {
-   text-align: center;
-   font-size: 13px;
-   color: #ddd;
    }
 </style>

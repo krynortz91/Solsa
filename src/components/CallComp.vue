@@ -20,18 +20,7 @@ body {
    color: #666666;
    font-family: "Open Sans", sans-serif;
    }
-   a {
-   color: #18d26e;
-   transition: 0.5s;
-   text-decoration: none;
-   }
-   a:hover,
-   a:active,
-   a:focus {
-   color: #18d36e;
-   outline: none;
-   text-decoration: none;
-   }
+
    p {
    padding: 0;
    margin: 0 0 30px 0;
@@ -76,12 +65,17 @@ body {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
-  color: #fff;
-}
-
-#call-to-action .cta-btn:hover {
   background: #18d26e;
   border: 2px solid #18d26e;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+#call-to-action .cta-btn:hover {
+  background: #139d53;
+  border: 2px solid #139d53;
+  text-decoration: none;
+
 }
 </style>

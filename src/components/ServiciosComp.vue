@@ -1,94 +1,100 @@
 <template>
    <!-- ======= About Us Section ======= -->
    <section id="about">
-      <div class="container" data-aos="fade-up">
-         <header class="section-header">
-            <h3>Nuestros Servicios</h3>
-            <p>Revisa nuestros servicios.</p>
-         </header>
-         <div class="row about-cols">
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-               <div class="about-col">
-                  <div class="img">
-                     <img src="../assets/servicios/3.jpg" alt="" class="img-fluid">
-                     <div class="icon"><i class="bi bi-gear-fill"></i></div>
-                  </div>
-                  <h2 class="title"><a href="#">Mecanizado en terreno</a></h2>
-                  <p>
-                     Maximiza la eficiencia y minimiza los tiempos de inactividad con nuestro servicio de mecanizado directamente en tu ubicación. Descubre cómo podemos llevar tu proyecto al siguiente nivel. 
-                  </p>
-                  <router-link to="/ServiciosView">Ver mas</router-link>
+       <div class="container" data-aos="fade-up">
+           <header class="section-header">
+               <h3>Nuestros Servicios</h3>
+               <!-- <p>Revisa nuestros servicios.</p> -->
+           </header>
+           <div class="row about-cols">
+               <div class="col-md-4 h-100" data-aos="fade-up" data-aos-delay="100">
+                   <div class="about-col">
+                       <div class="img">
+                           <img src="../assets/servicios/3.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="bi bi-gear-fill"></i></div>
+                       </div>
+                       <h2 class="title"><a href="#">Mecanizado en terreno</a></h2>
+                       <p>
+                           Maximiza la eficiencia y minimiza los tiempos de inactividad con nuestro servicio de mecanizado directamente en tu ubicación. Descubre cómo podemos llevar tu proyecto al siguiente nivel. 
+                           <br><br>
+                           <router-link to="/ServiciosView">Ver más</router-link>
+                       </p>
+                   </div>
                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-               <div class="about-col">
-                  <div class="img">
-                     <img src="../assets/5.jpg" alt="" class="img-fluid">
-                     <div class="icon"><i class="bi bi-box-seam"></i></div>
-                  </div>
-                  <h2 class="title"><a href="#">Arriendo de Equipos de Apoyo</a></h2>
-                  <p>
-                     Potencia tu proyecto con la mejor infraestructura. Contamos con una amplia gama de equipos disponibles para arriendo, listos para brindarte el respaldo necesario. Optimiza tu operación y asegura el éxito. 
-                  </p>
-                  <router-link to="/ServiciosView">Ver mas</router-link>
+               <div class="col-md-4 h-100" data-aos="fade-up" data-aos-delay="200">
+                   <div class="about-col">
+                       <div class="img">
+                           <img src="../assets/5.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="bi bi-box-seam"></i></div>
+                       </div>
+                       <h2 class="title"><a href="#">Arriendo de Equipos de Apoyo</a></h2>
+                       <p>
+                           Potencia tu proyecto con la mejor infraestructura. Contamos con una amplia gama de equipos disponibles para arriendo, listos para brindarte el respaldo necesario. Optimiza tu operación y asegura el éxito. 
+                           <br><br>
+                           <router-link to="/ServiciosView">Ver más</router-link>
+                       </p>
+                   </div>
                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-               <div class="about-col">
-                  <div class="img">
-                     <img src="../assets/servicios/2.jpg" alt="" class="img-fluid">
-                     <div class="icon"><i class="bi bi-truck"></i></div>
-                  </div>
-                  <h2 class="title"><a href="#">Arriendo de Camionetas 4x4 con equipamiento Minero</a></h2>
-                  <p>
-                     Potencia tu proyecto con la movilidad y resistencia que necesitas. Nuestras camionetas 4x4 equipadas para el sector minero están listas para enfrentar cualquier desafío. Rentabilidad y confiabilidad garantizadas.                 
-                  </p>
-                  <router-link to="/ServiciosView">Ver mas</router-link>
+               <div class="col-md-4 h-100" data-aos="fade-up" data-aos-delay="300">
+                   <div class="about-col">
+                       <div class="img">
+                           <img src="../assets/servicios/2.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="bi bi-truck"></i></div>
+                       </div>
+                       <h2 class="title"><a href="#">Arriendo de Camionetas 4x4 con equipamiento Minero</a></h2>
+                       <p>
+                           Potencia tu proyecto con la movilidad y resistencia que necesitas. Nuestras camionetas 4x4 equipadas para el sector minero están listas para enfrentar cualquier desafío. Rentabilidad y confiabilidad garantizadas.                 
+                           <br><br>
+                           <router-link to="/ServiciosView">Ver más</router-link>
+                       </p>
+                   </div>
                </div>
-            </div>
-         </div>
-         <div class="row about-cols">
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-               <div class="about-col">
-                  <div class="img">
-                     <img src="../assets/servicios/1.jpg" alt="" class="img-fluid">
-                     <div class="icon"><i class="bi bi-wrench"></i></div>
-                  </div>
-                  <h2 class="title"><a href="#">Reparación de Equipos Autónomos</a></h2>
-                  <p>
-                     Nuestro servicio de reparación especializado en equipos autónomos garantiza su pronta recuperación y funcionamiento óptimo. Confía en nuestro equipo de expertos y vuelve a la acción sin demoras. 
-                  </p>
-                  <router-link to="/ServiciosView">Ver mas</router-link>
+           </div>
+           <div class="row about-cols">
+               <div class="col-md-4 h-100" data-aos="fade-up" data-aos-delay="100">
+                   <div class="about-col">
+                       <div class="img">
+                           <img src="../assets/servicios/1.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="bi bi-wrench"></i></div>
+                       </div>
+                       <h2 class="title"><a href="#">Reparación de Equipos Autónomos</a></h2>
+                       <p>
+                           Nuestro servicio de reparación especializado en equipos autónomos garantiza su pronta recuperación y funcionamiento óptimo. Confía en nuestro equipo de expertos y vuelve a la acción sin demoras. 
+                           <br><br>
+                           <router-link to="/ServiciosView">Ver más</router-link>
+                       </p>
+                   </div>
                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-               <div class="about-col">
-                  <div class="img">
-                     <img src="../assets/servicios/4.jpg" alt="" class="img-fluid">
-                     <div class="icon"><i class="bi bi-bar-chart"></i></div>
-                  </div>
-                  <h2 class="title"><a href="#">Proyectos</a></h2>
-                  <p>
-                     Confía en nuestro equipo para llevar a cabo proyectos integrales que abarcan desde la ingeniería y diseño, hasta la fabricación, reparación y mantenimiento. Nuestra experiencia y enfoque en la excelencia garantizan soluciones inteligentes y resultados de calidad. 
-                  </p>
-                  <router-link to="/ServiciosView">Ver mas<i class="bi bi-plus"></i></router-link>
+               <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                   <div class="about-col">
+                       <div class="img">
+                           <img src="../assets/servicios/4.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="bi bi-bar-chart"></i></div>
+                       </div>
+                       <h2 class="title"><a href="#">Proyectos</a></h2>
+                       <p>
+                           Confía en nuestro equipo para llevar a cabo proyectos integrales que abarcan desde la ingeniería y diseño, hasta la fabricación, reparación y mantenimiento. Nuestra experiencia y enfoque en la excelencia garantizan soluciones inteligentes y resultados de calidad. 
+                           <br><br>
+                           <router-link to="/ServiciosView">Ver más</router-link>
+                       </p>
+                   </div>
                </div>
-            </div>
-            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-               <div class="about-col">
-                  <div class="img">
-                     <img src="../assets/servicios/5.jpg" alt="" class="img-fluid">
-                     <div class="icon"><i class="bi bi-tools"></i></div>
-                  </div>
-                  <h2 class="title"><a href="#"> Ferretería especializada</a></h2>
-                  <p>
-                     Encuentra todo lo que necesitas para tus proyectos. Nuestra amplia selección de herramientas y materiales de alta calidad te ofrece soluciones confiables y duraderas. 
-                  </p>
-                  <router-link to="/ServiciosView">Ver mas</router-link>
+               <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                   <div class="about-col">
+                       <div class="img">
+                           <img src="../assets/servicios/5.jpg" alt="" class="img-fluid">
+                           <div class="icon"><i class="bi bi-tools"></i></div>
+                       </div>
+                       <h2 class="title"><a href="#"> Ferretería especializada</a></h2>
+                       <p>
+                           Encuentra todo lo que necesitas para tus proyectos. Nuestra amplia selección de herramientas y materiales de alta calidad te ofrece soluciones confiables y duraderas. 
+                           <br><br>
+                           <router-link to="/ServiciosView">Ver más</router-link>
+                       </p>
+                   </div>
                </div>
-            </div>
-         </div>
-      </div>
+           </div>
+       </div>
    </section>
    <!-- End About Us Section -->
 </template>
@@ -109,7 +115,7 @@
    text-decoration: none;
    }
    .bi-plus{
-      color:#18d26e;
+   color:#18d26e;
    }
    a:hover,
    a:active,
@@ -214,12 +220,15 @@
    margin-bottom: 0;
    padding: 0 20px 20px 20px;
    }
-  .readmore {
+   router-link{
    margin-top: 15px;
    display: inline-block;
-   color: #333;
+   color: #18d26e;
    font-family: "Montserrat", sans-serif;
    font-size: 14px;
-
+   }
+   .section-header{
+      text-align: left;
+      padding-bottom: 2rem;
    }
 </style>
