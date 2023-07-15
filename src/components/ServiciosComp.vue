@@ -1,9 +1,10 @@
 <template>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
    <!-- ======= About Us Section ======= -->
    <section id="about">
        <div class="container" data-aos="fade-up">
            <header class="section-header">
-               <h3>Nuestros Servicios</h3>
+               <h2>Nuestros Servicios</h2>
                <!-- <p>Revisa nuestros servicios.</p> -->
            </header>
            <div class="row about-cols">
@@ -107,7 +108,6 @@
    body {
    background: #fff;
    color: #666666;
-   font-family: "Montserrat", sans-serif;
    }
    a {
    color: #18d26e;
@@ -228,7 +228,9 @@
    font-size: 14px;
    }
    .section-header{
-      text-align: left;
-      padding-bottom: 2rem;
+      text-align: center;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+      font-family: 'Josefin Sans', sans-serif;
    }
 </style>

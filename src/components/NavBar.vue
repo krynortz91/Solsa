@@ -1,4 +1,5 @@
 <template>
+   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
    <header id="header" class="fixed-top d-flex align-items-center header-transparent">
       <div class="container-fluid">
          <div class="row justify-content-center align-items-center">
@@ -53,7 +54,7 @@
                   <i class="bi bi-list mobile-nav-toggle"></i>
                </nav>
                <!-- .navbar -->
-               <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid"></a>
+               <router-link class="logo" to="/HomeView"><img src="../assets/logo.png" alt="logo" class="img-fluid" width="250px"></router-link>
             </div>
          </div>
       </div>
