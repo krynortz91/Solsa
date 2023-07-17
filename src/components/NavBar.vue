@@ -54,7 +54,7 @@
                   <i class="bi bi-list mobile-nav-toggle"></i>
                </nav>
                <!-- .navbar -->
-               <router-link class="logo" to="/HomeView"><img src="../assets/logo.png" alt="logo" class="img-fluid" width="250px"></router-link>
+               <router-link class="log" to="/HomeView"><img src="../assets/logo.png" alt="logo" class="img-fluid" width="250px"></router-link>
             </div>
          </div>
       </div>
@@ -70,10 +70,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
    #header {
       background-color: #0000009f;
-   }
-   body {
-      background: #fff;
-      color: #666666;
    }
    a {
       color: #18d26e;
@@ -110,7 +106,6 @@
       align-items: center;
       justify-content: space-between;
       padding: 20px 0 10px 30px;
-      
       font-size: 13px;
       font-weight: 600;
       color: #fff;
@@ -136,12 +131,12 @@
       left: 14px;
       top: calc(100% + 30px);
       padding: 10px 0;
-      z-index: 99;
+      z-index: -1;
       opacity: 0;
       visibility: hidden;
       background: #fff;
       box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-      transition: 0.3s;
+      transition: .2s ease-in;
    }
    .navbar .dropdown ul li {
       min-width: 200px;
@@ -180,7 +175,7 @@
          left: -90%;
       }
       .navbar .dropdown .dropdown:hover>ul {
-         left: -100%;
+         left: 100%;
       }
    }
 
