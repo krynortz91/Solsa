@@ -4,6 +4,8 @@ import HomeView from '../views/HomeView.vue'
 // import GaleriaView from '../views/GaleriaView.vue'
 import ServiciosView from '../views/ServiciosView.vue'
 // import NotFoundView from '../views/NotFoundView'
+import MecanizadosView from '../views/MecanizadosView.vue'
+
 
 // Vue.use(BootstrapVue);
 
@@ -21,7 +23,12 @@ const routes = [
   {
     path: '/ServiciosView',
     name: 'ServiciosView',
-    component: ServiciosView, 
+    component: ServiciosView
+  },
+  {
+    path: '/MecanizadosView',
+    name: 'MecanizadosView',
+    component: MecanizadosView,
   }
   // { 
   //   path: '/:pathMatch(.*)*',
