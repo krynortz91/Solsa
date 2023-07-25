@@ -5,7 +5,7 @@
          <div class="row justify-content-center align-items-center">
             <div class="col-xl-11 d-flex align-items-center justify-content-between">
                
-               <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid"></a>
+               <!-- <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid"></a> -->
                <nav id="navbar" class="navbar">
                   <ul>
                      <router-link to="/#hero">INICIO</router-link>
@@ -56,7 +56,7 @@
                   <i class="bi bi-list mobile-nav-toggle"></i>
                </nav>
                <!-- .navbar -->
-               <router-link class="log" to="/HomeView"><img src="../assets/logo.png" alt="logo" class="img-fluid" width="250px"></router-link>
+               <router-link class="logo" to="/"><img src="../assets/logo.png" alt="" class="img-fluid"></router-link>
             </div>
          </div>
       </div>
@@ -93,6 +93,7 @@
    .img-fluid{
       height: 70px;
       padding: 5px 0;
+
    }
    .navbar ul {
       display: flex;
@@ -274,7 +275,6 @@
    .logo img{
       height: 80px;
       padding-top: 15px;
-      left: 0;
    
    
    }
