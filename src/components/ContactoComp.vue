@@ -3,13 +3,9 @@
   <section id="contact" class="section-bg">
      <div class="container" data-aos="fade-up">
         <div class="section-header">
-           <h3>Contactános</h3>
+           <h2>Contactános</h2>
            <p>Conoce todas las formas de ubicarnos</p>
         </div>
-        <div class="container-fluid">
-        <div data-aos="fade-up">
-         <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.7084182658523!2d-70.69881492436093!3d-32.74693236182972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9688113c6b7e8dc3%3A0x74d54bb20bb144d7!2sSergio%20Caballero%20Espinoza%2C%20San%20Felipe%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1690321163802!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-      </div></div>
         <div class="row contact-info">
            <div class="col-md-4">
               <div class="contact-address">
@@ -33,6 +29,10 @@
               </div>
            </div>
         </div>
+        <div class="container-fluid">
+        <div data-aos="fade-up">
+         <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.7084182658523!2d-70.69881492436093!3d-32.74693236182972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9688113c6b7e8dc3%3A0x74d54bb20bb144d7!2sSergio%20Caballero%20Espinoza%2C%20San%20Felipe%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1690321163802!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+      </div></div>
         <div class="form">
            <form action="correo.php" method="POST" role="form" class="php-email-form">
               <div class="row">
