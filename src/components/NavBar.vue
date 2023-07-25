@@ -57,6 +57,7 @@
                </nav>
                <!-- .navbar -->
                <router-link class="logo" to="/"><img src="../assets/logo.png" alt="" class="img-fluid"></router-link>
+               <h1>SOLSA</h1>
             </div>
          </div>
       </div>
