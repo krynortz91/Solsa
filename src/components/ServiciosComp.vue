@@ -30,7 +30,7 @@
                        </div>
                        <h2 class="title">Arriendo de Equipos <br> de Apoyo</h2>
                        <p>
-                           Potencia tu proyecto con la mejor infraestructura. Contamos con una amplia gama de equipos disponibles para arriendo, listos para brindarte el respaldo necesario. Optimiza tu operación y asegura el éxito. 
+                           Potencia tu proyecto con la mejor infraestructura. Contamos con una amplia gama de equipos disponibles para arriendo, listos para brindarte el respaldo necesario. 
                            <br><br>
                            <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
                        </p>
@@ -44,7 +44,7 @@
                        </div>
                        <h2 class="title">Arriendo de Camionetas 4x4 <br>con equipamiento Minero</h2>
                        <p>
-                           Potencia tu proyecto con la movilidad y resistencia que necesitas. Nuestras camionetas 4x4 equipadas para el sector minero están listas para enfrentar cualquier desafío. Rentabilidad y confiabilidad garantizadas.                 
+                           Potencia tu proyecto con la movilidad y resistencia que necesitas. Nuestras camionetas 4x4 equipadas para el sector minero están listas para enfrentar cualquier desafío.             
                            <br><br>
                            <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
                        </p>
@@ -60,7 +60,7 @@
                        </div>
                        <h2 class="title">Reparación de Equipos Autónomos</h2>
                        <p>
-                           Nuestro servicio de reparación especializado en equipos autónomos garantiza su pronta recuperación y funcionamiento óptimo. Confía en nuestro equipo de expertos y vuelve a la acción sin demoras. 
+                           Nuestro servicio de reparación especializado en equipos autónomos garantiza su pronta recuperación y funcionamiento óptimo.
                            <br><br>
                            <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
                        </p>
@@ -74,7 +74,7 @@
                        </div>
                        <h2 class="title">Proyectos</h2>
                        <p>
-                           Confía en nuestro equipo para llevar a cabo proyectos integrales que abarcan desde la ingeniería y diseño, hasta la fabricación, reparación y mantenimiento. Nuestra experiencia y enfoque en la excelencia garantizan soluciones inteligentes y resultados de calidad. 
+                           Confía en nuestro equipo para llevar a cabo proyectos integrales que abarcan desde la ingeniería y diseño, hasta la fabricación, reparación y mantenimiento.
                            <br><br>
                            <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
                        </p>
