@@ -1,9 +1,10 @@
 <template>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">   
-    <section class="pt-5" >
+    <section id="servicios" class="pt-5" >
            <div class="container shadow section-sm rounded pt-5">
             <div class="row mb-5">
                 <h1>SERVICIOS</h1>
+                <div class="line"></div>
             </div>
                 <div class="row servicios">
                    <!-- sidebar -->
@@ -193,6 +194,82 @@
                                <div class="collapse" id="collapse-3">Contamos con herramientas FullTorque para aplicaciones de torque preciso y controlado, seguro y eficiente.
                                </div>
                            </div>
+                           <!-- CARRUSEL DE IMAGENES -->
+                           <div id="carousel-equipos" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="14" aria-label="Slide 15"></button> 
+
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/3.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/4.jpg" alt="Fourth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/8.jpg" alt="Eighth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/9.jpg" alt="Ninth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/10.jpg" alt="Tenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/11.jpg" alt="Eleventh slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-equipos" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-equipos" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
                        </div>
 
                        <div class="px-lg-5 px-4 servicio" id="arriendo-camionetas">
@@ -200,6 +277,82 @@
                            <div class="content">
                                <p>Ponemos a su disposición camionetas 4x4 equipadas con todo lo necesario para enfrentar los desafíos del entorno minero. Nuestros vehículos cuentan con características especiales para garantizar la seguridad y el rendimiento en terrenos difíciles, lo que los convierte en la opción ideal para proyectos mineros y actividades relacionadas.
                                </p>
+                               <!-- CARRUSEL DE IMAGENES -->
+                               <div id="carousel-camionetas" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                                    <button type="button" data-bs-target="#carousel-camionetas" data-bs-slide-to="14" aria-label="Slide 15"></button> 
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/1.jpg" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/2.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/3.jpg" alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/4.jpg" alt="Fourth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/8.jpg" alt="Eighth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/9.jpg" alt="Ninth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/10.jpg" alt="Tenth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/11.jpg" alt="Eleventh slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-camionetas" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-camionetas" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
                            </div>
                        </div>
 
@@ -213,6 +366,82 @@
                                    <li>Calefactores Diesel</li>
                                    <li>Torres de Iluminación </li>
                                </ul>
+                               <!-- CARRUSEL DE IMAGENES -->
+                               <div id="carousel-reparacion" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="14" aria-label="Slide 15"></button> 
+
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/1.jpg" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/2.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/3.jpg" alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/4.jpg" alt="Fourth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/8.jpg" alt="Eighth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/9.jpg" alt="Ninth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/10.jpg" alt="Tenth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/11.jpg" alt="Eleventh slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel-reparacion" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel-reparacion" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
                            </div>
                        </div>
                        <div class="px-lg-5 px-4 servicio" id="proyectos">
@@ -246,7 +475,84 @@
                                <div class="collapse" id="collapse-3">Nos encargamos del mantenimiento de sus instalaciones, tanto preventivo como correctivo, limpieza, reparaciones estructurales para garantizar su operatividad y seguridad.
                                </div>
                            </div>
+                           <!-- CARRUSEL DE IMAGENES -->
+                           <div id="carousel-proyectos" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                                <button type="button" data-bs-target="#carousel-proyectos" data-bs-slide-to="14" aria-label="Slide 15"></button> 
+
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/3.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/4.jpg" alt="Fourth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/8.jpg" alt="Eighth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/9.jpg" alt="Ninth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/10.jpg" alt="Tenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/11.jpg" alt="Eleventh slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-proyectos" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-proyectos" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
                        </div>
+
                        <div class="px-lg-5 px-4 pb-5 servicio" id="ferreteria">
                            <h2 class="mb-4 font-weight-mediu">Ferretería especializada</h2>
                            <div class="content">
@@ -265,16 +571,96 @@
                                </a>
                                <div class="collapse" id="collapse-2">Ponemos a su disposición una amplia gama de herramientas especializadas y nos comprometemos a entregarlas en un plazo máximo de 24 horas, para que pueda contar con las herramientas adecuadas en el momento oportuno, tanto para requerimientos permanentes como para imprevistos.</div>
                            </div>
+                           <!-- CARRUSEL DE IMAGENES -->
+                           <div id="carousel-ferreteria" class="carousel slide">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="14" aria-label="Slide 15"></button> 
+
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/1.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/2.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/3.jpg" alt="Third slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/4.jpg" alt="Fourth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/8.jpg" alt="Eighth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/9.jpg" alt="Ninth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/10.jpg" alt="Tenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/11.jpg" alt="Eleventh slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ferreteria" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-ferreteria" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
                        </div>
                    </div>
                </div>
            </div> 
        </section>
+       <CallComp />
     </template>
     <script>
-    
+    import CallComp from "@/components/CallComp.vue"
     export default {
-        name: "ServiciosView",   
+        name: "ServiciosView",  
+        components: {
+         CallComp,   
+      }, 
         mounted(){
             const servicios = document.querySelectorAll("div.servicio"); 
             const btnsMain = document.querySelectorAll(".sidelist.main");
@@ -303,8 +689,15 @@
     
     </script>
     <style scoped>
+    #servicios .line{
+        height: 6px;
+        width: 60px;
+        background-color: var(--color-green);
+        border-radius: 3px;
+        margin-left: calc(50% - 90px);
+    }
     .row.servicios{
-        height: 45rem;
+        height: 60rem;
     }
     .servicio{
         opacity: 0;
@@ -317,25 +710,25 @@
     }
     ul {
     list-style: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-primary);
     }
 
     a {
-    color: #18d26e;
+    color: var(--color-green);
     transition: 0.5s;
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-primary);
     }
     a:hover,
     a:active,
     a:focus {
-    color: #18d36e;
+    color: var(--color-green);
     outline: none;
     text-decoration: none;
     }
     h1, h2{
     color: #222;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-primary);
     font-weight: 700;
     line-height: 1.2;
     font-size: 24px;
@@ -349,7 +742,7 @@
     color: #333;
     font-size: 16px;
     line-height: 26px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-primary);
     }
     .content ol,
     .content ul {
@@ -373,7 +766,7 @@
     height: 8px;
     width: 8px;
     border-radius: 50%;
-    background: #18d26e;
+    background: var(--color-green);
     left: 3px;
     top: 8px;
     }
@@ -399,7 +792,7 @@
     display: none;
     }
     .sidelist.active a{
-    color: #18d36e !important;
+    color: var(--color-green) !important;
     }
     .collapse-wrapper {
     padding: 5px 15px;

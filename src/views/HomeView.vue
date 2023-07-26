@@ -28,20 +28,17 @@
   </section>
   <!-- End Hero Section -->
 <ServiciosComp />
-<CallComp />
 <ContactoComp />
 
 </template>
 <script>
    import ServiciosComp from "@/components/ServiciosComp.vue"
-   import CallComp from "@/components/CallComp.vue"
    import ContactoComp from "@/components/ContactoComp.vue"
 
    export default {
       name: "HomeView",
       components: {
          ServiciosComp,
-         CallComp,   
          ContactoComp
       },
       updated() {
@@ -62,13 +59,13 @@
   body {
    background: #fff;
    color: #666666;
-   font-family: "Montserrat", sans-serif;
+   font-family: var(--font-primary);
   }
 
   p {
    padding: 0;
    margin: 0 0 30px 0;
-   font-family: "Montserrat", sans-serif;
+   font-family: var(--font-primary);
   }
 
   #hero {
@@ -77,7 +74,7 @@
   background: #000;
   overflow: hidden;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-primary);
   }
   @media (max-height: 500px) {
   #hero {
@@ -162,7 +159,7 @@
   transform: translate3d(0, 0, 0);
   }
   #hero .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-primary);
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 1px;

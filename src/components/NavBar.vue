@@ -75,15 +75,15 @@
       background-color: #0000009f;
    }
    a {
-      color: #18d26e;
+      color: var(--color-green);
       transition: 0.5s;
       text-decoration: none;
-      font-family: "Montserrat", sans-serif;
+      font-family: var(--font-primary);
    }
    a:hover,
    a:active,
    a:focus {
-      color: #18d36e;
+      color: var(--color-green);
       outline: none;
       text-decoration: none;
    }
@@ -127,7 +127,7 @@
    .navbar .active,
    .navbar .active:focus,
    .navbar li:hover>a {
-   color: #18d26e;
+   color: var(--color-green);
    }
    .navbar .dropdown ul {
       display: block;
@@ -156,7 +156,7 @@
    .navbar .dropdown ul a:hover,
    .navbar .dropdown ul .active:hover,
    .navbar .dropdown ul li:hover>a {
-      color: #18d26e;
+      color: var(--color-green);
    }
    .navbar .dropdown:hover>ul {
       opacity: 1;

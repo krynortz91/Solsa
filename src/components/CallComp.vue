@@ -15,24 +15,14 @@
    }
 </script>
 <style scoped>
-body {
-   background: #fff;
-   color: #666666;
-   font-family: "Open Sans", sans-serif;
-   }
 
    p {
    padding: 0;
    margin: 0 0 30px 0;
-   font-family: "Montserrat", sans-serif;
+   font-family: var(--font-primary);
    }
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   h6 {
-   font-family: "Montserrat", sans-serif;
+   h3 {
+   font-family: var(--font-primary);
    font-weight: 400;
    margin: 0 0 20px 0;
    padding: 0;
@@ -55,7 +45,7 @@ body {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-primary);
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;

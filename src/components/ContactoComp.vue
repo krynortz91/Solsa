@@ -1,38 +1,41 @@
 <template>
    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
   <section id="contact" class="section-bg">
-     <div class="container" data-aos="fade-up">
-        <div class="section-header">
-           <h2>Contactános</h2>
-           <p>Conoce todas las formas de ubicarnos</p>
-        </div>
-        <div class="row contact-info">
-           <div class="col-md-4">
-              <div class="contact-address">
-                 <i class="bi bi-geo-alt"></i>
-                 <h3>Dirección</h3>
-                 <address>San Felipe, Valparaíso, Chile</address>
-              </div>
-           </div>
-           <div class="col-md-4">
-              <div class="contact-phone">
-                 <i class="bi bi-phone"></i>
-                 <h3>Teléfono</h3>
-                 <p><a href="tel:+155895548855">+56 9 9135 1542</a></p>
-              </div>
-           </div>
-           <div class="col-md-4">
-              <div class="contact-email">
-                 <i class="bi bi-envelope"></i>
-                 <h3>Email</h3>
-                 <p><a href="mailto:info@example.com">info@solsa.cl</a></p>
-              </div>
-           </div>
-        </div>
-        <div class="container-fluid">
-        <div data-aos="fade-up">
-         <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.7084182658523!2d-70.69881492436093!3d-32.74693236182972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9688113c6b7e8dc3%3A0x74d54bb20bb144d7!2sSergio%20Caballero%20Espinoza%2C%20San%20Felipe%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1690321163802!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-      </div></div>
+     <div class="container-fluid" >
+         <div class="datos">
+            <div class="section-header">
+               <h2 class="">Contáctanos</h2>
+               <div class="line"></div>
+               <!-- <p>Conoce todas las formas de ubicarnos</p> -->
+            </div>
+            <!-- <div class="row contact-info">
+               <div class="col-md-4">
+                  <div class="contact-address">
+                     <i class="bi bi-geo-alt"></i>
+                     <h3>Dirección</h3>
+                     <address>San Felipe, Valparaíso, Chile</address>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="contact-phone">
+                     <i class="bi bi-phone"></i>
+                     <h3>Teléfono</h3>
+                     <p><a href="tel:+155895548855">+56 9 9135 1542</a></p>
+                  </div>
+               </div>
+               <div class="col-md-4">
+                  <div class="contact-email">
+                     <i class="bi bi-envelope"></i>
+                     <h3>Email</h3>
+                     <p><a href="mailto:info@example.com">info@solsa.cl</a></p>
+                  </div>
+               </div>
+            </div>     -->
+         </div>    
+         <div class="map">
+            <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.7084182658523!2d-70.69881492436093!3d-32.74693236182972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9688113c6b7e8dc3%3A0x74d54bb20bb144d7!2sSergio%20Caballero%20Espinoza%2C%20San%20Felipe%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1690321163802!5m2!1ses!2scl" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+
+         </div>
         <div class="form">
            <form action="correo.php" method="POST" role="form" class="php-email-form">
               <div class="row">
@@ -67,71 +70,50 @@
   }
 </script>
 <style scoped>
-  body {
-  background: #fff;
-  color: #666666;
-  font-family: "Open Sans", sans-serif;
-  }
+.datos,
+.form{
+   margin-inline: 20rem;
+   margin-top: 2rem;
+}
   a {
-  color: #18d26e;
+  color: var(--color-green);
   transition: 0.5s;
   text-decoration: none;
   }
   a:hover,
   a:active,
   a:focus {
-  color: #18d36e;
+  color: var(--color-green);
   outline: none;
   text-decoration: none;
   }
   p {
   padding: 0;
   margin: 0 0 30px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-primary);
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  margin: 0 0 20px 0;
+  h2 {
+
   padding: 0;
+  font-family: var(--font-primary);
+  font-weight: 800;
   }
   #contact {
   padding: 60px 0;
   }
-  #contact .contact-info {
-  margin-bottom: 20px;
-  text-align: center;
+  #contact .container-fluid{
+   padding-inline: 0;
   }
-  #contact .contact-info i {
-  font-size: 48px;
-  display: inline-block;
-  margin-bottom: 10px;
-  color: #18d26e;
+  #contact .map{
+   margin-top: 4rem;
   }
-  #contact .contact-info address,
-  #contact .contact-info p {
-  margin-bottom: 0;
-  color: #000;
+  #contact .line{
+   height: 6px;
+   width: 3rem;
+   background-color: var(--color-green);
+   border-radius: 5px;
   }
-  #contact .contact-info h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 18px;
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #999;
-  }
-  #contact .contact-info a {
-  color: #000;
-  }
-  #contact .contact-info a:hover {
-  color: #18d26e;
-  }
+
   #contact .contact-address,
   #contact .contact-phone,
   #contact .contact-email {
@@ -169,7 +151,7 @@
   #contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: var(--color-green);
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -187,13 +169,13 @@
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid var(--color-green);
   border-top-color: #eee;
   animation: animate-loading 1s linear infinite;
   }
   #contact .php-email-form .form-group {
   margin-bottom: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-primary);
   }
   #contact .php-email-form input,
   #contact .php-email-form textarea {
@@ -201,20 +183,21 @@
   border-radius: 0;
   box-shadow: none;
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: var(--font-primary);
   }
   #contact .php-email-form input::focus,
   #contact .php-email-form textarea::focus {
-  background-color: #18d26e;
+  background-color: var(--color-green);
   }
   #contact .php-email-form button[type=submit] {
-  font-family: "Montserrat", sans-serif;
-  background: #18d26e;
+  font-family: var(--font-primary);
+  background: var(--color-green);
   border: 0;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
+  border-radius: 30px;
   }
   #contact .php-email-form button[type=submit]:hover {
   background: #13a456;
