@@ -180,6 +180,7 @@
                               <div id="hidro" class="accordion-collapse collapse" data-bs-parent="#accordionEquipos">
                                 <div class="accordion-body">
                                     Proporcionamos hidrolavadoras de alta presión que funcionan con motor diesel y son totalmente autónomas, lo que las hace ideales para trabajos en sitios remotos o sin acceso a energía eléctrica.
+                                    <!-- <img alt="hidrolavadora" src=../assets/showcase/Arriendo de equipos de apoyo/hidrolavadora.jpg"/> -->
                                 </div>
                               </div>
                             </div>
@@ -217,7 +218,7 @@
                               </h2>
                               <div id="evotorque" class="accordion-collapse collapse" data-bs-parent="#accordionEquipos">
                                 <div class="accordion-body">
-                                    Contamos con herramientas FullTorque para aplicaciones de torque preciso y controlado, seguro y eficiente.
+                                    Contamos con herramientas EvoTorque para aplicaciones de torque preciso y controlado, seguro y eficiente.
                                 </div>
                               </div>
                             </div>
