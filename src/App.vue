@@ -19,6 +19,9 @@ export default {
     FooterComp,
     Whatsapp,
     TopArrow
+  },
+  created(){
+    document.title = "Solsa | Servicios industriales"
   }
 }
 </script>

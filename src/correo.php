@@ -1,7 +1,7 @@
 <?php
 $msg = $_POST["message"];
 $remitente = $_POST["email"];
-$destino = "codasoluciones@gmail.com";
+$destino = "ventas@solsa.cl";
 $asunto = $_POST["subject"];
 
 $header = "From: " . $remitente ."\r\n";

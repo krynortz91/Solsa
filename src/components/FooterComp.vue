@@ -21,7 +21,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="mt-3 fw-normal">Contactános</h5>
                     <div class="line"></div>
-                    <p class="mb-1"><i class="bi bi-envelope-fill me-3"></i><span class="text-sm">info@solsa.cl</span></p>
+                    <p class="mb-1"><i class="bi bi-envelope-fill me-3"></i><a href="mailto:info@solsa.cl" class="text-sm">info@solsa.cl</a></p>
                     <p class="mb-1"><i class="bi bi-telephone-fill me-3"></i><span class="text-sm">+56 9 9135 1542</span></p>
                     <p class="mb-1"><i class="bi bi-geo-alt-fill me-3"></i><span class="text-sm">San Felipe, Valparaíso, Chile</span></p>
                 </div>

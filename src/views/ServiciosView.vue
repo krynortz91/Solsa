@@ -164,36 +164,63 @@
                        </div>
 
                        <div class="px-lg-5 px-4 servicio" id="arriendo-equipos">
-                           <h2 id="collapse">Arriendo de Equipos de Apoyo</h2>
+                           <h2 id="">Arriendo de Equipos de Apoyo</h2>
                            <div class="content">
-                               <p>Contamos con equipos de apoyo disponibles para arriendo, que se adaptan a las necesidades de su industria. Dentro de este servicio, ofrecemos:
-                               </p>
+                                <p>Contamos con equipos de apoyo disponibles para arriendo, que se adaptan a las necesidades de su industria. Dentro de este servicio, ofrecemos:
+                                </p>
                            </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-1" role="button">
-                               Hidrolavadoras Diesel autónomas <i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-1">Proporcionamos hidrolavadoras de alta presión que funcionan con motor diesel y son totalmente autónomas, lo que las hace ideales para trabajos en sitios remotos o sin acceso a energía eléctrica.</div>
-                           </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-2" role="button">
-                               Hitorc<i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-2">Ponemos a su disposición equipos Hitorc, especializados en tensionado y torque controlado. Estos equipos son esenciales para el montaje y desmontaje de elementos sujetos a altos niveles de presión y torque.</div>
-                           </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-3" role="button">
-                               Enerpac <i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-3">Ofrecemos equipos de alta calidad Enerpac para aplicaciones de alta presión, como cilindros hidráulicos, bombas y herramientas de torque. </div>
-                           </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-3" role="button">
-                               FullTorque<i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-3">Contamos con herramientas FullTorque para aplicaciones de torque preciso y controlado, seguro y eficiente.
-                               </div>
-                           </div>
+
+                           <div class="accordion" id="accordionEquipos">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hidro" aria-expanded="false" aria-controls="hidro">
+                                    Hidrolavadoras Diesel autónomas
+                                </button>
+                              </h2>
+                              <div id="hidro" class="accordion-collapse collapse" data-bs-parent="#accordionEquipos">
+                                <div class="accordion-body">
+                                    Proporcionamos hidrolavadoras de alta presión que funcionan con motor diesel y son totalmente autónomas, lo que las hace ideales para trabajos en sitios remotos o sin acceso a energía eléctrica.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#hytorc" aria-expanded="false" aria-controls="hytorc">
+                                    Hytorc
+                                </button>
+                              </h2>
+                              <div id="hytorc" class="accordion-collapse collapse" data-bs-parent="#accordionEquipos">
+                                <div class="accordion-body">
+                                    Ponemos a su disposición equipos Hytorc, especializados en tensionado y torque controlado. Estos equipos son esenciales para el montaje y desmontaje de elementos sujetos a altos niveles de presión y torque.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#enerpac" aria-expanded="false" aria-controls="enerpac">
+                                    Enerpac
+                                </button>
+                              </h2>
+                              <div id="enerpac" class="accordion-collapse collapse" data-bs-parent="#accordionEquipos">
+                                <div class="accordion-body">
+                                    Ponemos a su disposición camionetas 4x4 equipadas con todo lo necesario para enfrentar los desafíos del entorno minero. Nuestros vehículos cuentan con características especiales para garantizar la seguridad y el rendimiento en terrenos difíciles, lo que los convierte en la opción ideal para proyectos mineros y actividades relacionadas.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#evotorque" aria-expanded="false" aria-controls="evotorque">
+                                    EvoTorque - herramienta de torque eléctrica
+                                </button>
+                              </h2>
+                              <div id="evotorque" class="accordion-collapse collapse" data-bs-parent="#accordionEquipos">
+                                <div class="accordion-body">
+                                    Contamos con herramientas FullTorque para aplicaciones de torque preciso y controlado, seguro y eficiente.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                            <!-- CARRUSEL DE IMAGENES -->
                            <div id="carousel-equipos" class="carousel slide">
                             <div class="carousel-indicators">
@@ -450,31 +477,59 @@
                                <p>Nuestro equipo de profesionales altamente calificados está preparado para llevar a cabo proyectos de diferentes categorías. Dentro de nuestros servicios de proyectos, ofrecemos:
                                </p>
                            </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-1" role="button">
-                               Ingeniería <i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-1">Ofrecemos servicios de ingeniería para el desarrollo y la implementación de soluciones técnicas en su industria, optimizando procesos y maximizando la eficiencia y seguridad.</div>
-                           </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-2" role="button">
-                               Maestranza<i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-2">Contamos con una maestranza equipada para fabricación, reparación y mantenimiento de componentes y equipos industriales.</div>
-                           </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-3" role="button">
-                               Mantenimiento Industrial<i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-3">Brindamos servicios integrales de mantenimiento industrial para asegurar el correcto funcionamiento de sus instalaciones y equipos, minimizando los tiempos de inactividad.</div>
-                           </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-4" role="button">
-                               Mantenimiento de instalaciones<i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-3">Nos encargamos del mantenimiento de sus instalaciones, tanto preventivo como correctivo, limpieza, reparaciones estructurales para garantizar su operatividad y seguridad.
-                               </div>
-                           </div>
+
+                           <div class="accordion" id="accordionProyectos">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ingenieria" aria-expanded="false" aria-controls="ingenieria">
+                                    Ingeniería
+                                </button>
+                              </h2>
+                              <div id="ingenieria" class="accordion-collapse collapse" data-bs-parent="#accordionProyectos">
+                                <div class="accordion-body">
+                                    Ofrecemos servicios de ingeniería para el desarrollo y la implementación de soluciones técnicas en su industria, optimizando procesos y maximizando la eficiencia y seguridad.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#maestranza" aria-expanded="false" aria-controls="maestranza">
+                                    Maestranza
+                                </button>
+                              </h2>
+                              <div id="maestranza" class="accordion-collapse collapse" data-bs-parent="#accordionProyectos">
+                                <div class="accordion-body">
+                                    Contamos con una maestranza equipada para fabricación, reparación y mantenimiento de componentes y equipos industriales.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#industrial" aria-expanded="false" aria-controls="industrial">
+                                    Mantenimiento Industrial
+                                </button>
+                              </h2>
+                              <div id="industrial" class="accordion-collapse collapse" data-bs-parent="#accordionProyectos">
+                                <div class="accordion-body">
+                                    Brindamos servicios integrales de mantenimiento industrial para asegurar el correcto funcionamiento de sus instalaciones y equipos, minimizando los tiempos de inactividad.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#instalacion" aria-expanded="false" aria-controls="instalacion">
+                                    Mantenimiento de instalaciones
+                                </button>
+                              </h2>
+                              <div id="instalacion" class="accordion-collapse collapse" data-bs-parent="#accordionProyectos">
+                                <div class="accordion-body">
+                                    Nos encargamos del mantenimiento de sus instalaciones, tanto preventivo como correctivo, limpieza, reparaciones estructurales para garantizar su operatividad y seguridad.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
                            <!-- CARRUSEL DE IMAGENES -->
                            <div id="carousel-proyectos" class="carousel slide">
                             <div class="carousel-indicators">
@@ -559,18 +614,34 @@
                                <p>En SOLSA contamos con una ferretería especializada comprometida con satisfacer sus necesidades industriales, logísticas y operacionales. Dentro de nuestros servicios de ferretería, ofrecemos:
                                </p>
                            </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-1" role="button">
-                               Suministro de Insumos en menos de 24 horas<i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-1">Nos comprometemos a proveer los insumos que necesite en un plazo máximo de 24 horas, garantizando una rápida respuesta a sus requerimientos.</div>
-                           </div>
-                           <div class="border border-default collapse-wrapper">
-                               <a class="d-flex py-2 collapse-head" data-toggle="collapse" href="#collapse-2" role="button">
-                               Suministro de Herramientas en menos de 24 horas<i class="ti-plus ml-auto"></i>
-                               </a>
-                               <div class="collapse" id="collapse-2">Ponemos a su disposición una amplia gama de herramientas especializadas y nos comprometemos a entregarlas en un plazo máximo de 24 horas, para que pueda contar con las herramientas adecuadas en el momento oportuno, tanto para requerimientos permanentes como para imprevistos.</div>
-                           </div>
+
+                           <div class="accordion" id="accordionFerreteria">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#insumos" aria-expanded="false" aria-controls="insumos">
+                                    Suministro de Insumos en menos de 24 horas
+                                </button>
+                              </h2>
+                              <div id="insumos" class="accordion-collapse collapse" data-bs-parent="#accordionFerreteria">
+                                <div class="accordion-body">
+                                    Nos comprometemos a proveer los insumos que necesite en un plazo máximo de 24 horas, garantizando una rápida respuesta a sus requerimientos.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#herramientas" aria-expanded="false" aria-controls="herramientas">
+                                    Suministro de Herramientas en menos de 24 horas
+                                </button>
+                              </h2>
+                              <div id="herramientas" class="accordion-collapse collapse" data-bs-parent="#accordionFerreteria">
+                                <div class="accordion-body">
+                                    Ponemos a su disposición una amplia gama de herramientas especializadas y nos comprometemos a entregarlas en un plazo máximo de 24 horas, para que pueda contar con las herramientas adecuadas en el momento oportuno, tanto para requerimientos permanentes como para imprevistos.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
                            <!-- CARRUSEL DE IMAGENES -->
                            <div id="carousel-ferreteria" class="carousel slide">
                             <div class="carousel-indicators">
@@ -654,38 +725,157 @@
        </section>
        <CallComp />
     </template>
-    <script>
-    import CallComp from "@/components/CallComp.vue"
-    export default {
-        name: "ServiciosView",  
-        components: {
-         CallComp,   
-      }, 
-        mounted(){
-            const servicios = document.querySelectorAll("div.servicio"); 
-            const btnsMain = document.querySelectorAll(".sidelist.main");
-            btnsMain.forEach((e)=>{
-                e.addEventListener("click", ()=>{
-                    btnsMain.forEach((btn)=>{
-                        btn.classList.remove("active");
-                    });
-                    e.classList.add("active");
-                    servicios.forEach((s)=>{
-                        s.classList.remove("active");
-                    });
-                    let idMostrar = "";
-                    let lista = e.id.split("-");
-                    for(let i=1; i<lista.length; i++){
-                        idMostrar += lista[i];
-                        if(i != lista.length-1){
-                            idMostrar += "-";
-                        }
-                    }
-           document.getElementById(idMostrar).classList.add("active");
+<script>
+import CallComp from "@/components/CallComp.vue"
+
+export default {
+    name: "ServiciosView",  
+    components: {
+        CallComp,   
+    }, 
+    mounted(){
+        const servicios = document.querySelectorAll("div.servicio"); 
+        const btnsMain = document.querySelectorAll(".sidelist.main");
+        // Control de sidebar
+        btnsMain.forEach((e)=>{
+            e.addEventListener("click", ()=>{
+                btnsMain.forEach((btn)=>{
+                    btn.classList.remove("active");
                 });
-           });
-        },
-         };
+                e.classList.add("active");
+                servicios.forEach((s)=>{
+                    s.classList.remove("active");
+                });
+                let idMostrar = "";
+                let lista = e.id.split("-");
+                for(let i=1; i<lista.length; i++){
+                    idMostrar += lista[i];
+                    if(i != lista.length-1){
+                        idMostrar += "-";
+                    }
+                }
+                document.getElementById(idMostrar).classList.add("active");
+            });
+        });
+
+        // Control de secciones al cargar 
+        let section = this.$router.currentRoute.value.hash.replace("#", "");
+
+        if(section){
+            let lista = section.split("_");
+            let cat = lista[0];
+            let subcat = "";
+            if(lista.length == 2){
+                subcat = lista[1];
+            }
+
+            btnsMain.forEach((btn)=>{
+                btn.classList.remove("active");
+            });
+            servicios.forEach((s)=>{
+                s.classList.remove("active");
+            });
+            if(cat){
+                document.getElementById("btn-"+ cat).classList.add("active");
+                document.getElementById(cat).classList.add("active");
+            }
+            if(subcat){
+                console.log(subcat);
+                let acordions = document.querySelectorAll(".accordion-collapse");
+                acordions.forEach((a)=>{
+                    a.classList.remove("show");
+                });
+                document.getElementById(subcat).classList.add("show");
+                document.querySelectorAll(".accordion-button").forEach((e)=>{
+                    e.classList.add("collapsed");
+                });
+                document.getElementById(subcat).previousElementSibling.childNodes[0].classList.remove("collapsed");
+            }
+            console.log(this.$router.currentRoute.value);
+            this.$router.push(this.$router.currentRoute.value.path);
+        }
+    },
+    // mounted(){
+    //     let section = this.$router.currentRoute.value.hash.replace("#", "");
+
+    //     const servicios = document.querySelectorAll("div.servicio"); 
+    //     const btnsMain = document.querySelectorAll(".sidelist.main");
+
+    //     if(section){
+    //         let lista = section.split("_");
+    //         let cat = lista[0];
+    //         let subcat = "";
+    //         if(lista.length == 2){
+    //             subcat = lista[1];
+    //         }
+
+    //         btnsMain.forEach((btn)=>{
+    //             btn.classList.remove("active");
+    //         });
+    //         servicios.forEach((s)=>{
+    //             s.classList.remove("active");
+    //         });
+    //         if(cat){
+    //             document.getElementById("btn-"+ cat).classList.add("active");
+    //             document.getElementById(cat).classList.add("active");
+    //         }
+    //         if(subcat){
+    //             console.log(subcat);
+    //             let acordions = document.querySelectorAll(".accordion-collapse");
+    //             acordions.forEach((a)=>{
+    //                 a.classList.remove("show");
+    //             });
+    //             document.getElementById(subcat).classList.add("show");
+    //             document.querySelectorAll(".accordion-button").forEach((e)=>{
+    //                 e.classList.add("collapsed");
+    //             });
+    //             document.getElementById(subcat).previousElementSibling.childNodes[0].classList.remove("collapsed");
+    //         }
+    //         console.log(this.$router.currentRoute.value);
+    //         this.$router.push(this.$router.currentRoute.value.path);
+    //     }
+    // },
+    updated() {
+        let section = this.$router.currentRoute.value.hash.replace("#", "");
+
+        const servicios = document.querySelectorAll("div.servicio"); 
+        const btnsMain = document.querySelectorAll(".sidelist.main");
+
+        if(section){
+            let lista = section.split("_");
+            let cat = lista[0];
+            let subcat = "";
+            if(lista.length == 2){
+                subcat = lista[1];
+            }
+
+            btnsMain.forEach((btn)=>{
+                btn.classList.remove("active");
+            });
+            servicios.forEach((s)=>{
+                s.classList.remove("active");
+            });
+            if(cat){
+                document.getElementById("btn-"+ cat).classList.add("active");
+                document.getElementById(cat).classList.add("active");
+            }
+            if(subcat){
+                console.log(subcat);
+                let acordions = document.querySelectorAll(".accordion-collapse");
+                acordions.forEach((a)=>{
+                    a.classList.remove("show");
+                });
+                document.getElementById(subcat).classList.add("show");
+                document.querySelectorAll(".accordion-button").forEach((e)=>{
+                    e.classList.add("collapsed");
+                });
+                document.getElementById(subcat).previousElementSibling.childNodes[0].classList.remove("collapsed");
+            }
+            console.log(this.$router.currentRoute.value);
+            this.$router.push(this.$router.currentRoute.value.path);
+        }
+    },
+};
     
     </script>
     <style scoped>
@@ -701,12 +891,14 @@
     }
     .servicio{
         opacity: 0;
-        transition: 1s opacity;
+        transition: 1s opacity ease-in-out;
         height: 0;
+        visibility: hidden;
     }
     .servicio.active{
         opacity: 1;
-        height: 1;
+        display: block;
+        visibility: visible;
     }
     ul {
     list-style: none;
@@ -794,26 +986,12 @@
     .sidelist.active a{
     color: var(--color-green) !important;
     }
-    .collapse-wrapper {
-    padding: 5px 15px;
+
+    .carousel{
+        margin-top: 1rem;
     }
-    .collapse-wrapper .collapse-head {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
-    font-weight: 500;
-    align-items: center;
-    }
-    .container.shadow.section-sm{
-        margin-top: 4rem;
-        margin-bottom: 5rem;
-    }
-    /* .d-block w-100{
-       margin-bottom: 5rem;
-    } */
-    
     .carousel-item img{
-        height: 30rem;
+        height: 28rem;
         object-fit: cover;
     }
     </style>

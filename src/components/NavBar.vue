@@ -14,38 +14,38 @@
                         <ul>
                            <router-link to="/ServiciosView#mecanizado">Mecanizados en Terreno</router-link>
                            <li class="dropdown">
-                              <router-link to="/ServiciosView#arriendoEquipos">Arriendo de Equipos de Apoyo <i class="bi bi-chevron-right"></i></router-link>
+                              <router-link to="/ServiciosView#arriendo-equipos">Arriendo de Equipos de Apoyo <i class="bi bi-chevron-right"></i></router-link>
                               <ul>
-                                 <router-link to="/ServiciosView">Hidrolavadora Diesel Autónoma</router-link>
-                                 <router-link to="/ServiciosView">Hitorc</router-link>
-                                 <router-link to="/ServiciosView">Enerpac</router-link>
-                                 <router-link to="/ServiciosView">FullTorque</router-link>
+                                 <router-link to="/ServiciosView#arriendo-equipos_hidro">Hidrolavadora Diesel Autónoma</router-link>
+                                 <router-link to="/ServiciosView#arriendo-equipos_hytorc">Hytorc</router-link>
+                                 <router-link to="/ServiciosView#arriendo-equipos_enerpac">Enerpac</router-link>
+                                 <router-link to="/ServiciosView#arriendo-equipos_evotorque">EvoTorque - herramienta de torque eléctrica</router-link>
                               </ul>
                            </li>
-                           <router-link to="/ServiciosView#arriendoCamionetas">Arriendo de Camionetas 4x4 con equipamiento Minero</router-link>
+                           <router-link to="/ServiciosView#arriendo-camionetas">Arriendo de Camionetas 4x4 con equipamiento Minero</router-link>
                            <li class="dropdown">
-                              <router-link to="/ServiciosView#reparacionEquipos">Reparación de Equipos Autónomos <i class="bi bi-chevron-right"></i></router-link>
+                              <router-link to="/ServiciosView#reparacion-equipos">Reparación de Equipos Autónomos <i class="bi bi-chevron-right"></i></router-link>
                               <ul>
-                                 <router-link to="/ServiciosView">Hidrolavadoras</router-link>
-                                 <router-link to="/ServiciosView">Calefactores Diesel</router-link>
-                                 <router-link to="/ServiciosView">Torres de Iluminación</router-link>
+                                 <router-link to="/ServiciosView#reparacion-equipos">Hidrolavadoras</router-link>
+                                 <router-link to="/ServiciosView#reparacion-equipos">Calefactores Diesel</router-link>
+                                 <router-link to="/ServiciosView#reparacion-equipos">Torres de Iluminación</router-link>
                               </ul>
                            </li>
                            <li class="dropdown">
                               <router-link to="/ServiciosView#proyectos">Proyectos <i class="bi bi-chevron-right"></i></router-link>
                               <ul>
-                                 <router-link to="/ServiciosView">Ingeniería</router-link>
-                                 <router-link to="/ServiciosView">Maestranza</router-link>
-                                 <router-link to="/ServiciosView">Mantenimiento Industrial</router-link>
-                                 <router-link to="/ServiciosView">Mantenimiento de Instalaciones</router-link>
+                                 <router-link to="/ServiciosView#proyectos_ingenieria">Ingeniería</router-link>
+                                 <router-link to="/ServiciosView#proyectos_maestranza">Maestranza</router-link>
+                                 <router-link to="/ServiciosView#proyectos_industrial">Mantenimiento Industrial</router-link>
+                                 <router-link to="/ServiciosView#proyectos_instalacion">Mantenimiento de Instalaciones</router-link>
                               </ul>
                            </li>
                            <li class="dropdown">
                               <router-link to="/ServiciosView#ferreteria">
                               Ferretería especializada <i class="bi bi-chevron-right"></i></router-link>
                               <ul>
-                                 <router-link to="/ServiciosView">Suministro de Insumos en menos de 24 horas </router-link>
-                                 <router-link to="/ServiciosView">Suministro de Herramientas en menos de 24 horas</router-link>
+                                 <router-link to="/ServiciosView#ferreteria_insumos">Suministro de Insumos en menos de 24 horas </router-link>
+                                 <router-link to="/ServiciosView#ferreteria_herramientas">Suministro de Herramientas en menos de 24 horas</router-link>
                               </ul>
                            </li>
                         </ul>
@@ -57,7 +57,6 @@
                </nav>
                <!-- .navbar -->
                <router-link class="logo" to="/"><img src="../assets/logo.png" alt="" class="img-fluid"></router-link>
-               <h1>SOLSA</h1>
             </div>
          </div>
       </div>
@@ -276,7 +275,5 @@
    .logo img{
       height: 80px;
       padding-top: 15px;
-   
-   
    }
 </style>
