@@ -223,82 +223,6 @@
                               </div>
                             </div>
                           </div>
-                           <!-- CARRUSEL DE IMAGENES -->
-                           <div id="carousel-equipos" class="carousel slide">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                                <button type="button" data-bs-target="#carousel-equipos" data-bs-slide-to="14" aria-label="Slide 15"></button> 
-
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/1.jpg" alt="First slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/2.jpg" alt="Second slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/3.jpg" alt="Third slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/4.jpg" alt="Fourth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/8.jpg" alt="Eighth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/9.jpg" alt="Ninth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/10.jpg" alt="Tenth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/11.jpg" alt="Eleventh slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-equipos" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-equipos" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
                        </div>
 
                        <div class="px-lg-5 px-4 servicio" id="arriendo-camionetas">
@@ -411,55 +335,45 @@
                                     <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="10" aria-label="Slide 11"></button>
                                     <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="11" aria-label="Slide 12"></button>
                                     <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="14" aria-label="Slide 15"></button> 
+                                
 
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/1.jpg" alt="First slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion1.jpg" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/2.jpg" alt="Second slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion2.jpg" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/3.jpg" alt="Third slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion3.jpg" alt="Third slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/4.jpg" alt="Fourth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion4.jpg" alt="Fourth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion5.jpg" alt="Fifth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion6.jpg" alt="Sixth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion7.jpg" alt="Seventh slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/8.jpg" alt="Eighth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion8.jpg" alt="Eighth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/9.jpg" alt="Ninth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion9.jpg" alt="Ninth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/10.jpg" alt="Tenth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion10.jpg" alt="Tenth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/11.jpg" alt="Eleventh slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion11.jpg" alt="Eleventh slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones de Equipos Autonomos/reparacion12.jpg" alt="Twelfth slide">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-reparacion" data-bs-slide="prev">
@@ -642,83 +556,6 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
-
-                           <!-- CARRUSEL DE IMAGENES -->
-                           <div id="carousel-ferreteria" class="carousel slide">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="5" aria-label="Slide 6"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="6" aria-label="Slide 7"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                                <button type="button" data-bs-target="#carousel-ferreteria" data-bs-slide-to="14" aria-label="Slide 15"></button> 
-
-                            </div>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/1.jpg" alt="First slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/2.jpg" alt="Second slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/3.jpg" alt="Third slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/4.jpg" alt="Fourth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/8.jpg" alt="Eighth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/9.jpg" alt="Ninth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/10.jpg" alt="Tenth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/11.jpg" alt="Eleventh slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
-                                </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
-                                </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ferreteria" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carousel-ferreteria" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
                           </div>
                        </div>
                    </div>
