@@ -203,7 +203,8 @@
                               </h2>
                               <div id="enerpac" class="accordion-collapse collapse" data-bs-parent="#accordionEquipos">
                                 <div class="accordion-body">
-                                    Ponemos a su disposición camionetas 4x4 equipadas con todo lo necesario para enfrentar los desafíos del entorno minero. Nuestros vehículos cuentan con características especiales para garantizar la seguridad y el rendimiento en terrenos difíciles, lo que los convierte en la opción ideal para proyectos mineros y actividades relacionadas.
+                                    Ofrecemos equipos de alta calidad Enerpac para aplicaciones de alta presión, como cilindros hidráulicos, bombas y herramientas de torque. 
+
                                 </div>
                               </div>
                             </div>
