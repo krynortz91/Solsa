@@ -1,6 +1,5 @@
 <template>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">   
-    <section id="servicios" class="pt-5" >
+    <section id="servicios" >
         <div class="container shadow section-sm rounded pt-5">
             <div class="row mb-5">
                 <h1>SERVICIOS</h1>
@@ -726,6 +725,9 @@ export default {
     components: {
         CallComp,   
     }, 
+    created(){
+        window.scrollTo({ top: 0, behavior: 'instant' });
+    },
     mounted(){
         const servicios = document.querySelectorAll("div.servicio"); 
         const btnsMain = document.querySelectorAll(".sidelist.main");
@@ -832,6 +834,9 @@ export default {
     
     </script>
     <style scoped>
+    #servicios{
+        margin-top: 6rem;
+    }
     #servicios .line{
         height: 6px;
         width: 60px;

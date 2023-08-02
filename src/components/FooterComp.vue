@@ -6,7 +6,7 @@
                     <img class="" src="../assets/logo.png" alt="" width="330">
                     <h2 class="solsa">Solsa SPA, Mantenimiento servicios industriales</h2>
                 </div>
-                <div class="col-lg-2 col-md-6 ms-auto">
+                <!-- <div class="col-lg-2 col-md-6 ms-auto">
                     <h5 class="mt-3 fw-normal">Sitio</h5>
                     <div class="line"></div>
                     <ul class="list-unstyled">
@@ -17,9 +17,9 @@
                             <router-link to="/ServiciosView#mecanizado">Servicios</router-link>
                         </li>
                     </ul>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h5 class="mt-3 fw-normal">Contactános</h5>
+                </div> -->
+                <div class="col-lg-3 col-md-12 ms-auto">
+                    <h5 class="mt-3">Contactános</h5>
                     <div class="line"></div>
                     <p class="mb-1"><i class="bi bi-envelope-fill me-3"></i><a href="mailto:ventas@solsa.cl" class="text-sm">ventas@solsa.cl</a></p>
                     <p class="mb-1"><i class="bi bi-telephone-fill me-3"></i><span class="text-sm">+56 9 9135 1542</span></p>
@@ -29,7 +29,7 @@
         </div>
         <div id="coda" class=" py-4">
             <div class="container text-center">
-                <p class="mb-0 text-sm">&copy; All rights reserved. Designed by </p> <h2>Coda Latam</h2>
+                <p class="mb-0 text-sm">&copy; All rights reserved. Designed by </p><a href="https://www.instagram.com/coda.latam/" target="_blank"><h2>Coda Latam</h2></a>
             </div>
         </div>
     </div>
@@ -66,6 +66,20 @@
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
+    }
+    #footer .row div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    @media(min-width: 500px){
+        #footer .row div:nth-child(1){
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
     }
     #footer img{
         margin-top: 1.5rem;

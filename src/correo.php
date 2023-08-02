@@ -17,10 +17,10 @@ if($mail){
   echo $asunto;
   echo $msg;
   
-  //header("Location: https://www.solsa.cl/new");
+  header("Location: https://www.solsa.cl/");
 }
 else{
   echo "NO EXITO";
-  //header("Location: https://www.solsa.cl/new");
+  header("Location: https://www.solsa.cl/");
 }
 ?>
