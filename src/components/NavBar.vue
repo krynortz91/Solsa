@@ -1,100 +1,206 @@
 <template>
-   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
-   <header id="header" class="fixed-top d-flex align-items-center header-transparent">
-      <div class="container-fluid">
-         <div class="row justify-content-center align-items-center">
-            <div class="col-xl-11 d-flex align-items-center justify-content-between">
-               
-               <!-- <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid"></a> -->
-               <nav id="navbar" class="navbar">
-                  <ul>
-                     <router-link to="/#hero">INICIO</router-link>
-                     <li class="dropdown">
-                        <router-link to="/ServiciosView">Servicios <i class="bi bi-chevron-down"></i></router-link>
-                        <ul>
-                           <router-link to="/ServiciosView#mecanizado">Mecanizados en Terreno</router-link>
-                           <li class="dropdown">
-                              <router-link to="/ServiciosView#arriendo-equipos">Arriendo de Equipos de Apoyo <i class="bi bi-chevron-right"></i></router-link>
-                              <ul>
-                                 <router-link to="/ServiciosView#arriendo-equipos_hidro">Hidrolavadora Diesel Autónoma</router-link>
-                                 <router-link to="/ServiciosView#arriendo-equipos_hytorc">Hytorc</router-link>
-                                 <router-link to="/ServiciosView#arriendo-equipos_enerpac">Enerpac</router-link>
-                                 <router-link to="/ServiciosView#arriendo-equipos_evotorque">EvoTorque - herramienta de torque eléctrica</router-link>
-                              </ul>
-                           </li>
-                           <router-link to="/ServiciosView#arriendo-camionetas">Arriendo de Camionetas 4x4 con equipamiento Minero</router-link>
-                           <li class="dropdown">
-                              <router-link to="/ServiciosView#reparacion-equipos">Reparación de Equipos Autónomos <i class="bi bi-chevron-right"></i></router-link>
-                              <ul>
-                                 <router-link to="/ServiciosView#reparacion-equipos">Hidrolavadoras</router-link>
-                                 <router-link to="/ServiciosView#reparacion-equipos">Calefactores Diesel</router-link>
-                                 <router-link to="/ServiciosView#reparacion-equipos">Torres de Iluminación</router-link>
-                              </ul>
-                           </li>
-                           <li class="dropdown">
-                              <router-link to="/ServiciosView#proyectos">Proyectos <i class="bi bi-chevron-right"></i></router-link>
-                              <ul>
-                                 <router-link to="/ServiciosView#proyectos_ingenieria">Ingeniería</router-link>
-                                 <router-link to="/ServiciosView#proyectos_maestranza">Maestranza</router-link>
-                                 <router-link to="/ServiciosView#proyectos_industrial">Mantenimiento Industrial</router-link>
-                                 <router-link to="/ServiciosView#proyectos_instalacion">Mantenimiento de Instalaciones</router-link>
-                              </ul>
-                           </li>
-                           <li class="dropdown">
-                              <router-link to="/ServiciosView#ferreteria">
-                              Ferretería especializada <i class="bi bi-chevron-right"></i></router-link>
-                              <ul>
-                                 <router-link to="/ServiciosView#ferreteria_insumos">Suministro de Insumos en menos de 24 horas </router-link>
-                                 <router-link to="/ServiciosView#ferreteria_herramientas">Suministro de Herramientas en menos de 24 horas</router-link>
-                              </ul>
-                           </li>
-                        </ul>
-                     </li>
-                     <!-- <router-link to="/#portfolio">Galería</router-link> -->
-                     <router-link to="/#contact">Contacto</router-link>
-                  </ul>
-                  <i class="bi bi-list mobile-nav-toggle"></i>
-               </nav>
-               <!-- .navbar -->
-               <router-link class="logo" to="/"><img src="../assets/logo.png" alt="" class="img-fluid"></router-link>
-            </div>
-         </div>
-      </div>
-   </header>
-   <!-- End Header -->
+   <div id="navbar" class="container-fluid">
+      <nav>
+         <ul id="navbar-collapse" data-collapsed="true">
+            <router-link to="/#hero">INICIO</router-link>
+   
+            <li class="dropdown">
+               <router-link to="/ServiciosView">Servicios <i class="bi bi-chevron-down"></i></router-link>
+               <ul>
+                  <router-link to="/ServiciosView#mecanizado">Mecanizados en Terreno</router-link>
+                  <li class="dropdown">
+                     <router-link to="/ServiciosView#arriendo-equipos">Arriendo de Equipos de Apoyo <i class="bi bi-chevron-right"></i></router-link>
+                     <ul>
+                        <router-link to="/ServiciosView#arriendo-equipos_hidro">Hidrolavadora Diesel Autónoma</router-link>
+                        <router-link to="/ServiciosView#arriendo-equipos_hytorc">Hytorc</router-link>
+                        <router-link to="/ServiciosView#arriendo-equipos_enerpac">Enerpac</router-link>
+                        <router-link to="/ServiciosView#arriendo-equipos_evotorque">EvoTorque - herramienta de torque eléctrica</router-link>
+                     </ul>
+                  </li>
+   
+                  <router-link to="/ServiciosView#arriendo-camionetas">Arriendo de Camionetas 4x4 con equipamiento Minero</router-link>
+   
+                  <li class="dropdown">
+                     <router-link to="/ServiciosView#reparacion-equipos">Reparación de Equipos Autónomos <i class="bi bi-chevron-right"></i></router-link>
+                     <ul>
+                        <router-link to="/ServiciosView#reparacion-equipos">Hidrolavadoras</router-link>
+                        <router-link to="/ServiciosView#reparacion-equipos">Calefactores Diesel</router-link>
+                        <router-link to="/ServiciosView#reparacion-equipos">Torres de Iluminación</router-link>
+                     </ul>
+                  </li>
+   
+                  <li class="dropdown">
+                     <router-link to="/ServiciosView#proyectos">Proyectos <i class="bi bi-chevron-right"></i></router-link>
+                     <ul>
+                        <router-link to="/ServiciosView#proyectos_ingenieria">Ingeniería</router-link>
+                        <router-link to="/ServiciosView#proyectos_maestranza">Maestranza</router-link>
+                        <router-link to="/ServiciosView#proyectos_industrial">Mantenimiento Industrial</router-link>
+                        <router-link to="/ServiciosView#proyectos_instalacion">Mantenimiento de Instalaciones</router-link>
+                     </ul>
+                  </li>
+   
+                  <li class="dropdown">
+                     <router-link to="/ServiciosView#ferreteria">
+                     Ferretería especializada <i class="bi bi-chevron-right"></i></router-link>
+                     <ul>
+                        <router-link to="/ServiciosView#ferreteria_insumos">Suministro de Insumos en menos de 24 horas </router-link>
+                        <router-link to="/ServiciosView#ferreteria_herramientas">Suministro de Herramientas en menos de 24 horas</router-link>
+                     </ul>
+                  </li>
+   
+               </ul>
+            </li>
+   
+            <router-link to="/#contact">Contacto</router-link>
+         </ul>
+   
+         <i id="navbar-toggler" class="bi bi-list"></i>
+      </nav>
+
+      <router-link class="logo" to="/"><img src="../assets/logo.png" alt="Logo solsa"></router-link>
+   </div>
 </template>
 <script>
    export default {
-   name: 'NavBar', 
+      name: 'NavBar', 
+      mounted(){
+         const navbarToggler = document.getElementById("navbar-toggler");
+         const navbar = document.getElementById("navbar-collapse");
+         navbarToggler.addEventListener("click", ()=>{
+            console.log(navbar.getAttribute("data-collapsed"))
+            // if(navbar.getAttribute("data-collapsed") === "true"){
+            //    navbar.setAttribute("data-collapsed") = "false";
+            // }
+            // else{
+            //    navbar.setAttribute("data-collapsed") = "true";
+            // }
+         });
+      }
    }
 </script>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-   #header {
+   #navbar {
       background-color: #0000009f;
+      position: fixed;
+      z-index: 2;
+      top: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
    }
+   a{
+      color: #fff;
+      text-decoration: none;
+      transition: .5s;
+      text-transform: uppercase;
+      font-size: 13px;
+      font-weight: 600;
+      white-space: nowrap;
+   }
+   a:hover,
+   a:focus{
+      color: var(--color-green);
+      outline: none;
+   }
+   nav{
+      margin-top: 1rem;
+   }
+   .logo img{
+      height: 70px;
+      padding: 5px 0;
+   }
+   ul{
+      list-style: none;
+   }
+
+   i{
+      font-size: 12px;
+      line-height: 0;
+      margin-left: 5px;
+   }
+   .dropdown{
+      position: relative;
+      display: flex;
+
+   }
+   .dropdown ul{
+      display: none;
+      transition: .5s;
+      opacity: 0;
+      position: absolute;
+      background-color: #fff;
+      min-width: 200px;
+      padding-left: 0;
+
+   }
+   .dropdown ul a{
+      color: #666;
+      padding: 10px 20px;
+      text-transform: capitalize;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+   }
+   .dropdown ul a:hover{
+      color: var(--color-green);
+   }
+   .dropdown .dropdown ul {
+      top: 0;
+      left: calc(100% - 30px);
+      visibility: hidden;
+   }
+
+
+   #navbar-collapse{
+      display: none;
+   }
+   #navbar-toggler{
+      color: #fff;
+      font-size: 28px;
+      cursor: pointer;
+      line-height: 0;
+      transition: 0.5s;
+   }
+   @media(min-width: 991px) {
+      #navbar-collapse{
+         display: flex;
+         gap: 20px;
+         padding-left: 7rem;
+      }
+      #navbar-toggler{
+         display: none;
+      }
+      .dropdown:hover > ul{
+         display: block;
+         opacity: 1;
+
+         visibility: visible;
+         top: 20px;
+      }
+      .dropdown .dropdown:hover>ul {
+         opacity: 1;
+         top: 0;
+         left: 100%;
+         visibility: visible;
+      }
+   }
+  
+ 
+
+   /*
    a {
       color: var(--color-green);
       transition: 0.5s;
       text-decoration: none;
       font-family: var(--font-primary);
    }
-   a:hover,
-   a:active,
-   a:focus {
-      color: var(--color-green);
-      outline: none;
-      text-decoration: none;
-   }
-   p {
-      margin: 0 0 30px 0;
-   }
-
-   .img-fluid{
+   .logo img{
       height: 70px;
       padding: 5px 0;
-
    }
+
    .navbar ul {
       display: flex;
       list-style: none;
@@ -116,8 +222,7 @@
       text-transform: uppercase;
       transition: 0.3s;
    }
-   .navbar a i,
-   .navbar a:focus i {
+   .navbar a i {
       font-size: 12px;
       line-height: 0;
       margin-left: 5px;
@@ -126,12 +231,12 @@
    .navbar .active,
    .navbar .active:focus,
    .navbar li:hover>a {
-   color: var(--color-green);
+      color: var(--color-green);
    }
    .navbar .dropdown ul {
       display: block;
       position: absolute;
-      left: 14px;
+      left: 20px;
       top: calc(100% + 30px);
       padding: 10px 0;
       z-index: -1;
@@ -175,16 +280,12 @@
    }
    @media (max-width: 1366px) {
       .navbar .dropdown .dropdown ul {
-         left: -90%;
+         left: 50%;
       }
       .navbar .dropdown .dropdown:hover>ul {
          left: 100%;
       }
    }
-
-   /**
-   * Mobile Navigation 
-   */
    .mobile-nav-toggle {
       color: #fff;
       font-size: 28px;
@@ -197,83 +298,12 @@
       .mobile-nav-toggle {
          display: block;
       }
-      .navbar ul {
+      #navbar-toggle {
          display: none;
       }
-   }
-   .navbar-mobile {
-      position: fixed;
-      overflow: hidden;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      background: rgba(26, 26, 26, 0.9);
-      transition: 0.3s;
-      z-index: 999;
-   }
-   .navbar-mobile .mobile-nav-toggle {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-   }
-   .navbar-mobile ul {
-      display: block;
-      position: absolute;
-      top: 55px;
-      right: 15px;
-      bottom: 15px;
-      left: 15px;
-      padding: 10px 0;
-      background-color: #fff;
-      overflow-y: auto;
-      transition: 0.3s;
-   }
-   .navbar-mobile a,
-   .navbar-mobile a:focus {
-      padding: 10px 20px;
-      font-size: 15px;
-      color: #333333;
-   }
-   .navbar-mobile a:hover,
-   .navbar-mobile .active,
-   .navbar-mobile li:hover>a {
-      color: #18d26e;
-   }
-   .navbar-mobile .getstarted,
-   .navbar-mobile .getstarted:focus {
-      margin: 15px;
-   }
-   .navbar-mobile .dropdown ul {
-      position: static;
-      display: none;
-      margin: 10px 20px;
-      padding: 10px 0;
-      z-index: 99;
-      opacity: 1;
-      visibility: visible;
-      background: #fff;
-      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-   }
-   .navbar-mobile .dropdown ul li {
-      min-width: 200px;
-   }
-   .navbar-mobile .dropdown ul a {
-      padding: 10px 20px;
-   }
-   .navbar-mobile .dropdown ul a i {
-   font-size: 12px;
-   }
-   .navbar-mobile .dropdown ul a:hover,
-   .navbar-mobile .dropdown ul .active:hover,
-   .navbar-mobile .dropdown ul li:hover>a {
-   color: #18d26e;
-   }
-   .navbar-mobile .dropdown>.dropdown-active {
-   display: block;
    }
    .logo img{
       height: 80px;
       padding-top: 15px;
-   }
+   } */
 </style>

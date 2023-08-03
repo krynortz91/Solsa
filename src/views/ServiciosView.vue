@@ -78,7 +78,7 @@
                         </li>
                     </ul>
                 </div>
-
+                <!-- Contents -->
                 <div class="col-lg-8">
 
                     <div class="px-lg-5 px-4 servicio active" id="mecanizado">
