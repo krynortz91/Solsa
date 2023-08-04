@@ -1,7 +1,15 @@
 <template>
    <div id="navbar" class="container-fluid">
+      <div>
+         <!-- hamburguesa -->
+         <i id="navbar-toggler" class="bi bi-list"></i>
+         <!-- logo -->
+         <router-link class="logo" to="/"><img src="../assets/logo.png" alt="Logo solsa"></router-link>
+      </div>
+      <!-- barra navegacion -->
       <nav>
-         <ul id="navbar-collapse" data-collapsed="true">
+         <ul id="navbar-collapse" data-collapsed="false">
+            
             <router-link to="/#hero">INICIO</router-link>
    
             <li class="dropdown">
@@ -47,17 +55,15 @@
                         <router-link to="/ServiciosView#ferreteria_herramientas">Suministro de Herramientas en menos de 24 horas</router-link>
                      </ul>
                   </li>
-   
+                  
                </ul>
             </li>
    
             <router-link to="/#contact">Contacto</router-link>
+            
          </ul>
    
-         <i id="navbar-toggler" class="bi bi-list"></i>
       </nav>
-
-      <router-link class="logo" to="/"><img src="../assets/logo.png" alt="Logo solsa"></router-link>
    </div>
 </template>
 <script>
@@ -67,13 +73,16 @@
          const navbarToggler = document.getElementById("navbar-toggler");
          const navbar = document.getElementById("navbar-collapse");
          navbarToggler.addEventListener("click", ()=>{
-            console.log(navbar.getAttribute("data-collapsed"))
-            // if(navbar.getAttribute("data-collapsed") === "true"){
-            //    navbar.setAttribute("data-collapsed") = "false";
-            // }
-            // else{
-            //    navbar.setAttribute("data-collapsed") = "true";
-            // }
+            if(navbar.getAttribute("data-collapsed") == "false"){
+               navbar.setAttribute("data-collapsed", "true");
+               navbarToggler.classList.remove("bi-list");
+               navbarToggler.classList.add("bi-x-lg");
+            }
+            else{
+               navbar.setAttribute("data-collapsed", "false");
+               navbarToggler.classList.add("bi-list");
+               navbarToggler.classList.remove("bi-x-lg");
+            }
          });
       }
    }
@@ -87,7 +96,6 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      
    }
    a{
       color: #fff;
@@ -105,6 +113,13 @@
    }
    nav{
       margin-top: 1rem;
+      order: 1;
+   }
+   #navbar > div{
+      order: 2;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
    }
    .logo img{
       height: 70px;
@@ -122,7 +137,6 @@
    .dropdown{
       position: relative;
       display: flex;
-
    }
    .dropdown ul{
       display: none;
@@ -151,10 +165,10 @@
       left: calc(100% - 30px);
       visibility: hidden;
    }
-
-
    #navbar-collapse{
-      display: none;
+      display: flex;
+      gap: 20px;
+      padding-left: 7rem;
    }
    #navbar-toggler{
       color: #fff;
@@ -162,148 +176,63 @@
       cursor: pointer;
       line-height: 0;
       transition: 0.5s;
+      display: none;
    }
-   @media(min-width: 991px) {
-      #navbar-collapse{
-         display: flex;
-         gap: 20px;
-         padding-left: 7rem;
-      }
-      #navbar-toggler{
-         display: none;
-      }
-      .dropdown:hover > ul{
-         display: block;
-         opacity: 1;
-
-         visibility: visible;
-         top: 20px;
-      }
-      .dropdown .dropdown:hover>ul {
-         opacity: 1;
-         top: 0;
-         left: 100%;
-         visibility: visible;
-      }
-   }
-  
- 
-
-   /*
-   a {
-      color: var(--color-green);
-      transition: 0.5s;
-      text-decoration: none;
-      font-family: var(--font-primary);
-   }
-   .logo img{
-      height: 70px;
-      padding: 5px 0;
-   }
-
-   .navbar ul {
-      display: flex;
-      list-style: none;
-      align-items: center;
-   }
-   .navbar li {
-      position: relative;
-   }
-   .navbar a,
-   .navbar a:focus {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px 0 10px 30px;
-      font-size: 13px;
-      font-weight: 600;
-      color: #fff;
-      white-space: nowrap;
-      text-transform: uppercase;
-      transition: 0.3s;
-   }
-   .navbar a i {
-      font-size: 12px;
-      line-height: 0;
-      margin-left: 5px;
-   }
-   .navbar a:hover,
-   .navbar .active,
-   .navbar .active:focus,
-   .navbar li:hover>a {
-      color: var(--color-green);
-   }
-   .navbar .dropdown ul {
+   .dropdown:hover > ul{
       display: block;
-      position: absolute;
-      left: 20px;
-      top: calc(100% + 30px);
-      padding: 10px 0;
-      z-index: -1;
-      opacity: 0;
-      visibility: hidden;
-      background: #fff;
-      box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-      transition: .2s ease-in;
-   }
-   .navbar .dropdown ul li {
-      min-width: 200px;
-   }
-   .navbar .dropdown ul a {
-      padding: 10px 20px;
-      text-transform: none;
-      color: #666666;
-   }
-   .navbar .dropdown ul a i {
-      font-size: 12px;
-   }
-   .navbar .dropdown ul a:hover,
-   .navbar .dropdown ul .active:hover,
-   .navbar .dropdown ul li:hover>a {
-      color: var(--color-green);
-   }
-   .navbar .dropdown:hover>ul {
       opacity: 1;
-      top: 100%;
       visibility: visible;
+      top: 20px;
    }
-   .navbar .dropdown .dropdown ul {
-      top: 0;
-      left: calc(100% - 30px);
-      visibility: hidden;
-   }
-   .navbar .dropdown .dropdown:hover>ul {
+   .dropdown .dropdown:hover>ul {
       opacity: 1;
       top: 0;
       left: 100%;
       visibility: visible;
    }
-   @media (max-width: 1366px) {
-      .navbar .dropdown .dropdown ul {
-         left: 50%;
+   @media(max-width: 991px) {
+      #navbar{
+         flex-direction: column;
+         align-items: normal;
       }
-      .navbar .dropdown .dropdown:hover>ul {
-         left: 100%;
+      nav{
+         order: 2;
+         margin: 0;
       }
-   }
-   .mobile-nav-toggle {
-      color: #fff;
-      font-size: 28px;
-      cursor: pointer;
-      display: none;
-      line-height: 0;
-      transition: 0.5s;
-   }
-   @media (max-width: 991px) {
-      .mobile-nav-toggle {
+      #navbar > div{
+         order: 1;
+      }
+      #navbar-collapse{
+         padding-left: 0;
+         flex-direction: column;
+         padding-left: 1rem;
+         display: flex;
+         height: auto;
+         opacity: 1;
+         gap: 10px;
+         
+      }
+      #navbar-collapse[data-collapsed=false]{
+         display: none;
+         height: 0;
+         opacity: 0;
+      }
+      #navbar-toggler{
          display: block;
+         width: 3rem;
       }
-      #navbar-toggle {
+      i{
          display: none;
       }
+      .dropdown:focus ul{
+         display: none;
+         border: 1px solid red;
+      }
+      .dropdown:hover ul{
+         display: none;
+      }
+      a{
+         font-size: 15px;
+      }
    }
-   .logo img{
-      height: 80px;
-      padding-top: 15px;
-   } */
 </style>

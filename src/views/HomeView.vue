@@ -66,7 +66,7 @@ a:hover{
    color: #18d26e;
 }
 #hero {
-   width: 100%;
+
    height: 90vh;
    background: #000;
    overflow: hidden;
@@ -78,8 +78,10 @@ a:hover{
       height: 100vh;
    }
 }
+
 #hero video{
-   object-fit: cover;
+   height: 100%;
+   object-fit:cover;
    object-position: center;
 }
 #hero .hero-info {
