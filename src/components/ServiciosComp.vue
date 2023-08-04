@@ -17,7 +17,7 @@
                 <p>
                     Maximiza la eficiencia y minimiza los tiempos de inactividad con nuestro servicio de mecanizado directamente en tu ubicación. Descubre cómo podemos llevar tu proyecto al siguiente nivel. 
                 </p>
-                <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
+                <router-link to="/ServiciosView#mecanizado"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
             </div>
 
             <div class="grid-item">
@@ -29,7 +29,7 @@
                 <p>
                     Potencia tu proyecto con la mejor infraestructura. Contamos con una amplia gama de equipos disponibles para arriendo, listos para brindarte el respaldo necesario. 
                 </p>
-                <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
+                <router-link to="/ServiciosView#arriendo-equipos"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
             </div>
 
             <div class="grid-item">
@@ -41,7 +41,7 @@
                 <p>
                     Potencia tu proyecto con la movilidad y resistencia que necesitas. Nuestras camionetas 4x4 equipadas para el sector minero están listas para enfrentar cualquier desafío.             
                 </p>
-                <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
+                <router-link to="/ServiciosView#arriendo-camionetas"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
             </div>
 
             <div class="grid-item">
@@ -53,7 +53,7 @@
                 <p>
                     Nuestro servicio de reparación especializado en equipos autónomos garantiza su pronta recuperación y funcionamiento óptimo.
                 </p>
-                <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
+                <router-link to="/ServiciosView#reparacion-equipos"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
             </div>
 
             <div class="grid-item">
@@ -65,7 +65,7 @@
                 <p>
                     Confía en nuestro equipo para llevar a cabo proyectos integrales que abarcan desde la ingeniería y diseño, hasta la fabricación, reparación y mantenimiento.
                 </p>
-                <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
+                <router-link to="/ServiciosView#proyectos"><img src="../assets/more.png" alt="" srcset="" width="20">  Ver más</router-link>
             </div>
 
             <div class="grid-item">
@@ -77,7 +77,7 @@
                 <p>
                     Encuentra todo lo que necesitas para tus proyectos. Nuestra amplia selección de herramientas y materiales de alta calidad te ofrece soluciones confiables y duraderas. 
                 </p>
-                <router-link to="/ServiciosView"><img src="../assets/more.png" alt="" srcset="" width="20">Ver más</router-link>
+                <router-link to="/ServiciosView#ferreteria"><img src="../assets/more.png" alt="" srcset="" width="20">Ver más</router-link>
             </div>
         </div>
     </div>
@@ -129,10 +129,15 @@ h2 {
     column-gap: 24px;
     row-gap: 20px;
 }
-@media(min-width: 500px){
+@media(min-width: 480px){
     #servicios .grid-container{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         
+    }
+}
+@media(min-width: 980px){
+    #servicios .grid-container{
+        grid-template-columns: repeat(3, 1fr); 
     }
 }
 

@@ -10,10 +10,10 @@
                 <div class="col-lg-3">
                     <ul class="sidenav">
                         <li class="sidelist main active" id="btn-mecanizado">
-                            <a href="#">Mecanizados en Terreno</a>
+                            <a href="#servicios-section">Mecanizados en Terreno</a>
                         </li>
                         <li class="sidelist main" id="btn-arriendo-equipos">
-                            <a href="#">Arriendo de Equipos de Apoyo</a>
+                            <a href="#servicios-section">Arriendo de Equipos de Apoyo</a>
                             <ul>
                                 <li class="sidelist">
                                     <a href="#arriendo-equipos">Hidrolavadora Diesel Autónoma</a>
@@ -30,10 +30,10 @@
                             </ul>
                         </li>
                         <li class="sidelist main" id="btn-arriendo-camionetas">
-                            <a href="#">Arriendo de Camionetas 4x4 con equipamiento Minero</a>
+                            <a href="#servicios-section">Arriendo de Camionetas 4x4 con equipamiento Minero</a>
                         </li>
                         <li class="sidelist main" id="btn-reparacion-equipos">
-                            <a href="#">Reparación de Equipos Autónomos</a>
+                            <a href="#servicios-section">Reparación de Equipos Autónomos</a>
                             <ul>
                                 <li class="sidelist">
                                     <a href="#reparacion-equipos">Hidrolavadoras</a>
@@ -47,7 +47,7 @@
                             </ul>
                         </li>
                         <li class="sidelist main" id="btn-proyectos">
-                            <a href="#">Proyectos</a>
+                            <a href="#servicios-section">Proyectos</a>
                             <ul>
                                 <li class="sidelist">
                                     <a href="#proyectos">Ingeniería</a>
@@ -66,7 +66,7 @@
                             </ul>
                         </li>
                         <li class="sidelist main" id="btn-ferreteria">
-                            <a href="#">Ferretería especializada</a>
+                            <a href="#servicios-section">Ferretería especializada</a>
                             <ul>
                                 <li class="sidelist">
                                     <a href="#ferreteria">Suministro de Insumos en menos de 24 horas</a>
@@ -79,7 +79,7 @@
                     </ul>
                 </div>
                 <!-- Contents -->
-                <div class="col-lg-8">
+                <div class="col-lg-8" id="servicios-section">
 
                     <div class="px-lg-5 px-4 servicio active" id="mecanizado">
                         <h2 class="mb-4 font-weight-medium">Mecanizados en Terreno</h2>
@@ -756,7 +756,7 @@ export default {
         // Control de secciones al cargar 
         let section = this.$router.currentRoute.value.hash.replace("#", "");
 
-        if(section){
+        if(section && section != "servicios-section"){
             let lista = section.split("_");
             let cat = lista[0];
             let subcat = "";
@@ -775,7 +775,6 @@ export default {
                 document.getElementById(cat).classList.add("active");
             }
             if(subcat){
-                console.log(subcat);
                 let acordions = document.querySelectorAll(".accordion-collapse");
                 acordions.forEach((a)=>{
                     a.classList.remove("show");
@@ -786,7 +785,7 @@ export default {
                 });
                 document.getElementById(subcat).previousElementSibling.childNodes[0].classList.remove("collapsed");
             }
-            console.log(this.$router.currentRoute.value);
+            
             this.$router.push(this.$router.currentRoute.value.path);
         }
     },
@@ -796,7 +795,7 @@ export default {
         const servicios = document.querySelectorAll("div.servicio"); 
         const btnsMain = document.querySelectorAll(".sidelist.main");
 
-        if(section){
+        if(section && section != "servicios-section"){
             let lista = section.split("_");
             let cat = lista[0];
             let subcat = "";
@@ -815,7 +814,6 @@ export default {
                 document.getElementById(cat).classList.add("active");
             }
             if(subcat){
-                console.log(subcat);
                 let acordions = document.querySelectorAll(".accordion-collapse");
                 acordions.forEach((a)=>{
                     a.classList.remove("show");
@@ -826,9 +824,10 @@ export default {
                 });
                 document.getElementById(subcat).previousElementSibling.childNodes[0].classList.remove("collapsed");
             }
-            console.log(this.$router.currentRoute.value);
             this.$router.push(this.$router.currentRoute.value.path);
         }
+        console.log(document.querySelector(".servicio.active"));
+
     },
 };
     
@@ -844,9 +843,6 @@ export default {
         border-radius: 3px;
         margin-left: calc(50% - 90px);
     }
-    .row.servicios{
-        height: 60rem;
-    }
     .servicio{
         opacity: 0;
         transition: 1s opacity ease-in-out;
@@ -854,9 +850,13 @@ export default {
         visibility: hidden;
     }
     .servicio.active{
+        height: auto;
         opacity: 1;
-        display: block;
+
         visibility: visible;
+    }
+    #servicios-section{
+        scroll-margin: 13rem; 
     }
     ul {
     list-style: none;
@@ -911,38 +911,38 @@ export default {
     position: relative;
     }
     .content ul li::before {
-    position: absolute;
-    content: "";
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    background: var(--color-green);
-    left: 3px;
-    top: 8px;
+        position: absolute;
+        content: "";
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background: var(--color-green);
+        left: 3px;
+        top: 8px;
     }
     /* sidenav */
     .sidenav {
-    border-right: 1px solid #E2E2E2;
-    padding-right: 20px;
+        border-right: 1px solid #E2E2E2;
+        padding-right: 20px;
     }
     .sidenav ul {
-    padding-left: 10px;
+        padding-left: 10px;
     }
     .sidenav > li a {
-    padding: 20px 0;
-    color: #222;
-    display: block;
-    font-size: 16px;
-    font-weight: 500;
+        padding: 20px 0;
+        color: #222;
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
     }
     .sidenav > li:not(:last-child) {
-    border-bottom: 1px solid #E2E2E2;
+        border-bottom: 1px solid #E2E2E2;
     }
     .sidenav .sidelist ul {
-    display: none;
+        display: none;
     }
     .sidelist.active a{
-    color: var(--color-green) !important;
+        color: var(--color-green) !important;
     }
 
     .carousel{
@@ -952,5 +952,24 @@ export default {
         height: 28rem;
         width: 100%;
         object-fit: cover;
+    }
+    .accordion-button:not(.collapsed){
+        background-color: var(--color-green--transparent);
+        box-shadow: none;
+        color: #333;
+    }
+    .accordion-button:focus{
+        border-color: none;
+    }
+    @media(max-width: 960px){
+        #servicios-section{
+            scroll-margin: 6rem; 
+        }
+        .servicio h2{
+            font-size: 20px;
+        }
+        .servicio img{
+            height: 14rem;
+        }
     }
     </style>

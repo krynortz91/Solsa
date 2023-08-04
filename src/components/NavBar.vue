@@ -7,7 +7,7 @@
          <router-link class="logo" to="/"><img src="../assets/logo.png" alt="Logo solsa"></router-link>
       </div>
       <!-- barra navegacion -->
-      <nav>
+      <nav >
          <ul id="navbar-collapse" data-collapsed="false">
             
             <router-link to="/#hero">INICIO</router-link>
@@ -190,6 +190,8 @@
       left: 100%;
       visibility: visible;
    }
+   
+   /* Mobil version */
    @media(max-width: 991px) {
       #navbar{
          flex-direction: column;
@@ -210,12 +212,14 @@
          height: auto;
          opacity: 1;
          gap: 10px;
-         
+         transition: opacity .2s ease-in;
+         visibility: visible;
       }
       #navbar-collapse[data-collapsed=false]{
-         display: none;
          height: 0;
          opacity: 0;
+         visibility: hidden;
+         transition: none;
       }
       #navbar-toggler{
          display: block;
@@ -226,7 +230,6 @@
       }
       .dropdown:focus ul{
          display: none;
-         border: 1px solid red;
       }
       .dropdown:hover ul{
          display: none;

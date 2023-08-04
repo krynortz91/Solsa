@@ -35,6 +35,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root{
   --color-green: #18d26e;
+  --color-green--transparent: #18d26e44;
 
   --font-primary: "Montserrat", sans-serif;
 }

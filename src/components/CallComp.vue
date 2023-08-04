@@ -32,6 +32,7 @@
   background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../assets/9.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
+  margin-top: 3rem;
 }
 
 #call-to-action h3 {
