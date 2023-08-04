@@ -102,8 +102,7 @@
                                     <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="10" aria-label="Slide 11"></button>
                                     <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="11" aria-label="Slide 12"></button>
                                     <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                                    <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                                    <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="14" aria-label="Slide 15"></button> 
+                                    <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="13" aria-label="Slide 14"></button> 
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -120,9 +119,6 @@
                                     </div>
                                     <div class="carousel-item">
                                         <img class="d-block w-100" src="../assets/showcase/Mecanizados/5.jpg" alt="Fifth slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/6.jpg" alt="Sixth slide">
                                     </div>
                                     <div class="carousel-item">
                                         <img class="d-block w-100" src="../assets/showcase/Mecanizados/7.jpg" alt="Seventh slide">
@@ -143,13 +139,13 @@
                                         <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/13.jpg" alt="Thirteenth slide">
-                                    </div>
-                                    <div class="carousel-item">
                                         <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
                                     </div>
                                     <div class="carousel-item">
                                         <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/16.jpg" alt="Fifteenth slide">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-mecanizado" data-bs-slide="prev">
@@ -296,10 +292,8 @@
                                     <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="5" aria-label="Slide 6"></button>
                                     <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="6" aria-label="Slide 7"></button>
                                     <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="7" aria-label="Slide 8"></button>
-                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="8" aria-label="Slide 9"></button>
-                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="9" aria-label="Slide 10"></button>
-                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="10" aria-label="Slide 11"></button>
-                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="8" aria-label="Slide 10"></button>
+                                    <button type="button" data-bs-target="#carousel-reparacion" data-bs-slide-to="9" aria-label="Slide 11"></button>
 
                                 </div>
                                 <div class="carousel-inner">
@@ -319,25 +313,19 @@
                                         <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion5.jpg" alt="Fifth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion6.jpg" alt="Sixth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion7.jpg" alt="Six slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion7.jpg" alt="Seventh slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion9.jpg" alt="Seventh slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion8.jpg" alt="Eighth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion10.jpg" alt="Eigth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion9.jpg" alt="Ninth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion11.jpg" alt="Ninth slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion10.jpg" alt="Tenth slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion11.jpg" alt="Eleventh slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion12.jpg" alt="Twelfth slide">
+                                        <img class="d-block w-100" src="../assets/showcase/Reparaciones/reparacion12.jpg" alt="Tenth slide">
                                     </div>
                                 </div>
                                 <button class="carousel-control-prev" type="button" data-bs-target="#carousel-reparacion" data-bs-slide="prev">
