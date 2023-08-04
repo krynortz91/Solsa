@@ -102,7 +102,6 @@
                                     <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="10" aria-label="Slide 11"></button>
                                     <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="11" aria-label="Slide 12"></button>
                                     <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                                    <button type="button" data-bs-target="#carousel-mecanizado" data-bs-slide-to="13" aria-label="Slide 14"></button> 
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
@@ -137,9 +136,6 @@
                                     </div>
                                     <div class="carousel-item">
                                         <img class="d-block w-100" src="../assets/showcase/Mecanizados/12.jpg" alt="Twelfth slide">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="../assets/showcase/Mecanizados/14.jpg" alt="Fourteenth slide">
                                     </div>
                                     <div class="carousel-item">
                                         <img class="d-block w-100" src="../assets/showcase/Mecanizados/15.jpg" alt="Fifteenth slide">
