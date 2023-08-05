@@ -362,7 +362,6 @@
                                             <button type="button" data-bs-target="#carousel-ingenieria" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                             <button type="button" data-bs-target="#carousel-ingenieria" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                             <button type="button" data-bs-target="#carousel-ingenieria" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                            <button type="button" data-bs-target="#carousel-ingenieria" data-bs-slide-to="4" aria-label="Slide 5"></button>
 
                                         </div>
                                         <div class="carousel-inner">
@@ -378,9 +377,7 @@
                                             <div class="carousel-item">
                                                 <img class="d-block w-100" src="../assets/showcase/Proyectos/ingieneria4.jpg" alt="Fourth slide">
                                             </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="../assets/showcase/Proyectos/ingieneria5.jpg" alt="Fifth slide">
-                                            </div>
+                                            
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ingenieria" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -414,6 +411,7 @@
                                                 <button type="button" data-bs-target="#carousel-maestranza" data-bs-slide-to="5" aria-label="Slide 6"></button>
                                                 <button type="button" data-bs-target="#carousel-maestranza" data-bs-slide-to="6" aria-label="Slide 7"></button>
                                                 <button type="button" data-bs-target="#carousel-maestranza" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                                <button type="button" data-bs-target="#carousel-maestranza" data-bs-slide-to="8" aria-label="Slide 9"></button>
                                             </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
@@ -440,6 +438,9 @@
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/maestranza8.jpg" alt="Eighth slide">
                                                 </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/ingieneria5.jpg" alt="Nineth slide">
+                                            </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel-maestranza" data-bs-slide="prev">
                                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
