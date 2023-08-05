@@ -362,7 +362,6 @@
                                             <button type="button" data-bs-target="#carousel-ingenieria" data-bs-slide-to="1" aria-label="Slide 2"></button>
                                             <button type="button" data-bs-target="#carousel-ingenieria" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                             <button type="button" data-bs-target="#carousel-ingenieria" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                                            <button type="button" data-bs-target="#carousel-ingenieria" data-bs-slide-to="4" aria-label="Slide 5"></button>
 
                                         </div>
                                         <div class="carousel-inner">
@@ -378,9 +377,7 @@
                                             <div class="carousel-item">
                                                 <img class="d-block w-100" src="../assets/showcase/Proyectos/ingieneria4.jpg" alt="Fourth slide">
                                             </div>
-                                            <div class="carousel-item">
-                                                <img class="d-block w-100" src="../assets/showcase/Proyectos/ingieneria5.jpg" alt="Fifth slide">
-                                            </div>
+                                            
                                         </div>
                                         <button class="carousel-control-prev" type="button" data-bs-target="#carousel-ingenieria" data-bs-slide="prev">
                                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -414,6 +411,8 @@
                                                 <button type="button" data-bs-target="#carousel-maestranza" data-bs-slide-to="5" aria-label="Slide 6"></button>
                                                 <button type="button" data-bs-target="#carousel-maestranza" data-bs-slide-to="6" aria-label="Slide 7"></button>
                                                 <button type="button" data-bs-target="#carousel-maestranza" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                                <button type="button" data-bs-target="#carousel-maestranza" data-bs-slide-to="8" aria-label="Slide 9"></button>
+
                                             </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
@@ -439,6 +438,9 @@
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/maestranza8.jpg" alt="Eighth slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/ingieneria5.jpg" alt="Nineth slide">
                                                 </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel-maestranza" data-bs-slide="prev">
@@ -486,7 +488,8 @@
                                                 <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="16" aria-label="Slide 17"></button> 
                                                 <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="17" aria-label="Slide 18"></button> 
                                                 <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="18" aria-label="Slide 19"></button>
-                                                <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="19" aria-label="Slide 20"></button>    
+                                                <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="19" aria-label="Slide 20"></button> 
+                                                <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="19" aria-label="Slide 20"></button>     
                                             </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
@@ -541,13 +544,13 @@
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/mindustrial17.jpg" alt="Seventeenth slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/mindustrial18.jpg" alt="Eighteenth slide">
-                                                </div>
-                                                <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/mindustrial19.jpg" alt="Ninteenth slide">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/mindustrial20.jpg" alt="Twentieth slide">
+                                                </div>
+                                                <div class="carousel-item">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones4.jpg" alt="Twenty first slide">
                                                 </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel-industrial" data-bs-slide="prev">
@@ -589,9 +592,7 @@
                                                 <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="10" aria-label="Slide 11"></button>
                                                 <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="11" aria-label="Slide 12"></button>
                                                 <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="12" aria-label="Slide 13"></button>
-                                                <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="13" aria-label="Slide 14"></button>
-                                                <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="14" aria-label="Slide 15"></button>
-
+                                               
                                             </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
@@ -604,40 +605,34 @@
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones3.jpg" alt="Third slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones4.jpg" alt="Fourth slide">
-                                                </div>
-                                                <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones5.jpg" alt="Fifth slide">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones6.jpg" alt="Sixth slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones7.jpg" alt="Seventh slide">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones8.jpg" alt="Seventh slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones8.jpg" alt="Eighth slide">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones9.jpg" alt="Eighth slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones9.jpg" alt="Ninth slide">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones10.jpg" alt="Nineth slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones10.jpg" alt="Tenth slide">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones11.jpg" alt="Tenth slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones11.jpg" alt="Eleventh slide">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones12.jpg" alt="Eleventh slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones12.jpg" alt="Twelfth slide">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones13.jpg" alt="Twelfth slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones13.jpg" alt="Thirteenth slide">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones14.jpg" alt="Thirteenth slide">
                                                 </div>
                                                 <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones14.jpg" alt="Fourteenth slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones15.jpg" alt="Fifteenth slide">
+                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones15.jpg" alt="Fourteenth slide">
                                                 </div>
                                             </div>
                                             <button class="carousel-control-prev" type="button" data-bs-target="#carousel-instalaciones" data-bs-slide="prev">

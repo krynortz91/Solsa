@@ -34,7 +34,7 @@
 
             <div class="grid-item">
                 <div class="img">
-                    <img src="../assets/servicios/2.jpg" alt="" class="img-fluid">
+                    <img src="../assets/showcase/arriendocamioneta4x4.jpg" alt="" class="img-fluid">
                     <div class="icon"><i class="bi bi-truck"></i></div>
                 </div>
                 <h2 class="title">Arriendo de Camionetas 4x4 <br>con equipamiento Minero</h2>
