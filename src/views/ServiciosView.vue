@@ -487,8 +487,7 @@
                                                 <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="16" aria-label="Slide 17"></button> 
                                                 <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="17" aria-label="Slide 18"></button> 
                                                 <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="18" aria-label="Slide 19"></button>
-                                                <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="19" aria-label="Slide 20"></button> 
-                                                <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="19" aria-label="Slide 20"></button>     
+                                                <button type="button" data-bs-target="#carousel-industrial" data-bs-slide-to="19" aria-label="Slide 20"></button>      
                                             </div>
                                             <div class="carousel-inner">
                                                 <div class="carousel-item active">
@@ -502,9 +501,6 @@
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/mindustrial4.jpg" alt="Fourth slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/mindustrial5.jpg" alt="Fifth slide">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/mindustrial6.jpg" alt="Sixth slide">
@@ -590,7 +586,6 @@
                                                 <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="9" aria-label="Slide 10"></button>
                                                 <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="10" aria-label="Slide 11"></button>
                                                 <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="11" aria-label="Slide 12"></button>
-                                                <button type="button" data-bs-target="#carousel-instalaciones" data-bs-slide-to="12" aria-label="Slide 13"></button>
                                                
                                             </div>
                                             <div class="carousel-inner">
@@ -611,9 +606,6 @@
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones8.jpg" alt="Seventh slide">
-                                                </div>
-                                                <div class="carousel-item">
-                                                    <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones9.jpg" alt="Eighth slide">
                                                 </div>
                                                 <div class="carousel-item">
                                                     <img class="d-block w-100" src="../assets/showcase/Proyectos/minstalaciones10.jpg" alt="Nineth slide">
