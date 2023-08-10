@@ -1,167 +1,120 @@
 <template>
-   <footer id="footer">
-       <div class="footer-top">
-           <div class="container">
-               <div class="row">
-                   <div class="col-lg-3 col-md-6 footer-info">
-                       <a href="index.html" class="logo"><img src="../assets/logo.png" alt="" class="img-fluid" width="240px"></a>
-                   </div>
-                   <div class="col-lg-3 col-md-6 footer-links">
-                       <h4>Sitio</h4>
-                       <ul>
-                           <li><i class="bi bi-chevron-right"></i><router-link to="/HomeView">Inicio</router-link></li>
-                           <li><i class="bi bi-chevron-right"></i><router-link to="/ServiciosView#mecanizado">Servicios</router-link></li>
-                       </ul>
-                   </div>
-                   <div class="col-lg-3 col-md-6 footer-links">
-                       <h4>Ayuda</h4>
-                       <ul>
-                           <li><i class="bi bi-chevron-right"></i> <a href="#contacto">Solicita un presupuesto</a></li>
-                           <li><i class="bi bi-chevron-right"></i> <a href="#contacto">Contáctanos</a></li>
-                       </ul>
-                   </div>
-                   <div class="col-lg-3 col-md-6 footer-contact">
-                       <h4>Contactános</h4>
-                       <p>
-                           <strong>Teléfono:</strong> +56 9 9135 1542<br>
-                           <strong>Email:</strong> info@solsa.cl<br>
-                       </p>
-                       <!-- <div class="social-links">
-                           <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                           <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                           <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                           <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-                           </div> -->
-                   </div>
-               </div>
-           </div>
-       </div>
-   </footer>
-   <!-- End Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row py-4 justify-content-start">
+                <div class="col-lg-4 col-md-12">
+                    <img class="" src="../assets/logo.png" alt="" width="330">
+                    <h2 class="solsa">Solsa SPA, Mantenimiento servicios industriales</h2>
+                </div>
+                <!-- <div class="col-lg-2 col-md-6 ms-auto">
+                    <h5 class="mt-3 fw-normal">Sitio</h5>
+                    <div class="line"></div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <router-link to="/HomeView">Inicio</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/ServiciosView#mecanizado">Servicios</router-link>
+                        </li>
+                    </ul>
+                </div> -->
+                <div class="col-lg-3 col-md-12 ms-auto">
+                    <h5 class="mt-3">Contactános</h5>
+                    <div class="line"></div>
+                    <p class="mb-1"><i class="bi bi-envelope-fill me-3"></i><a href="mailto:ventas@solsa.cl" class="text-sm">ventas@solsa.cl</a></p>
+                    <p class="mb-1"><i class="bi bi-telephone-fill me-3"></i><span class="text-sm">+56 9 9135 1542</span></p>
+                    <p class="mb-1"><i class="bi bi-geo-alt-fill me-3"></i><span class="text-sm">San Felipe, Valparaíso, Chile</span></p>
+                </div>
+            </div>
+        </div>
+        <div id="coda" class=" py-4">
+            <div class="container text-center">
+                <p class="mb-0 text-sm">&copy; All rights reserved. Designed by </p><a href="https://www.instagram.com/coda.latam/" target="_blank"><h2>Coda Latam</h2></a>
+            </div>
+        </div>
+    </div>
+
 </template>
 <script>
-   export default {
-   name: 'FooterComp',
-   }
+    export default {
+    name: 'FooterComp',
+    }
 </script>
 <style scoped>
-   body {
-   background: #fff;
-   color: #666666;
-   font-family: "Open Sans", sans-serif;
-   }
-   a {
-   color: #18d26e;
-   transition: 0.5s;
-   text-decoration: none;
-   font-family: "Montserrat", sans-serif;
-   }
-   a:hover,
-   a:active,
-   a:focus {
-   color: #18d36e;
-   outline: none;
-   text-decoration: none;
-   }
-   p {
-   padding: 0;
-   margin: 0 0 30px 0;
-   font-family: "Montserrat", sans-serif;
-   }
-   h1,
-   h2,
-   h3,
-   h4,
-   h5,
-   h6 {
-   font-family: "Montserrat", sans-serif;
-   font-weight: 400;
-   margin: 0 0 20px 0;
-   padding: 0;
-   }
-   #footer {
-   background: #000;
-   padding: 0 0 30px 0;
-   color: #eee;
-   font-size: 14px;
-   }
-   #footer .footer-top {
-   background: #111;
-   padding: 60px 0 30px 0;
-   }
-   #footer .footer-top .footer-info {
-   margin-bottom: 30px;
-   }
-   #footer .footer-top .footer-info h3 {
-   font-size: 34px;
-   margin: 0 0 20px 0;
-   padding: 2px 0 2px 10px;
-   line-height: 1;
-   font-family: "Montserrat", sans-serif;
-   font-weight: 700;
-   letter-spacing: 3px;
-   border-left: 4px solid #18d26e;
-   }
-   #footer .footer-top .footer-info p {
-   font-size: 14px;
-   line-height: 24px;
-   margin-bottom: 0;
-   font-family: "Montserrat", sans-serif;
-   color: #eee;
-   }
-   #footer .footer-top h4 {
-   font-size: 14px;
-   font-weight: bold;
-   color: #fff;
-   text-transform: uppercase;
-   position: relative;
-   padding-bottom: 12px;
-   }
-   #footer .footer-top h4::before,
-   #footer .footer-top h4::after {
-   content: "";
-   position: absolute;
-   left: 0;
-   bottom: 0;
-   height: 2px;
-   }
-   #footer .footer-top h4::before {
-   right: 0;
-   background: #555;
-   }
-   #footer .footer-top h4::after {
-   background: #18d26e;
-   width: 60px;
-   }
-   #footer .footer-top .footer-links {
-   margin-bottom: 30px;
-   }
-   #footer .footer-top .footer-links ul {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-   }
-   #footer .footer-top .footer-links ul i {
-   padding-right: 8px;
-   color: #ddd;
-   }
-   #footer .footer-top .footer-links ul li {
-   border-bottom: 1px solid #333;
-   padding: 10px 0;
-   }
-   #footer .footer-top .footer-links ul li:first-child {
-   padding-top: 0;
-   }
-   #footer .footer-top .footer-links ul a {
-   color: #eee;
-   }
-   #footer .footer-top .footer-links ul a:hover {
-   color: #18d26e;
-   }
-   #footer .footer-top .footer-contact {
-   margin-bottom: 30px;
-   }
-   #footer .footer-top .footer-contact p {
-   line-height: 26px;
-   }
+
+    a {
+        color: #fff;
+        transition: 0.5s;
+        text-decoration: none;
+        font-family: var(--font-primary);
+    }
+    a:hover,
+    a:active,
+    a:focus {
+        color: #18d36e;
+        outline: none;
+        text-decoration: none;
+    }
+    p {
+        padding: 0;
+        margin: 0 0 30px 0;
+        font-family: var(--font-primary);
+    }
+    h2,
+    h5{
+    font-family: var(--font-primary);
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    padding: 0;
+    }
+    #footer .row div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    @media(min-width: 500px){
+        #footer .row div:nth-child(1){
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    #footer img{
+        margin-top: 1.5rem;
+    }
+    #footer .solsa{
+        font-size: .9rem;
+        margin: 0;
+        margin-left: 5px;
+        color: #777;
+    }
+    #footer h5{
+
+        margin: 0;
+    }
+    #footer .line{
+        background-color: var(--color-green);
+        height: 2px;
+        width: 50%;
+        margin-top: 5px;
+        margin-bottom: 1rem;
+        border-radius: 1px;
+    }
+    #footer {
+    background: #000;
+    color: #eee;
+    font-size: 14px;
+    }
+    #coda{
+        background-color: #000;
+    }
+    #coda p {
+        color: #444;
+    }
+    #coda h2{
+        color: var(--color-green);
+        font-size: 1rem;
+    }
 </style>

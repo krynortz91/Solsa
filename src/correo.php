@@ -1,7 +1,7 @@
 <?php
 $msg = $_POST["message"];
 $remitente = $_POST["email"];
-$destino = "codasoluciones@gmail.com";
+$destino = "ventas@solsa.cl";
 $asunto = $_POST["subject"];
 
 $header = "From: " . $remitente ."\r\n";
@@ -17,10 +17,10 @@ if($mail){
   echo $asunto;
   echo $msg;
   
-  //header("Location: https://www.solsa.cl/new");
+  header("Location: https://www.solsa.cl/");
 }
 else{
   echo "NO EXITO";
-  //header("Location: https://www.solsa.cl/new");
+  header("Location: https://www.solsa.cl/");
 }
 ?>
